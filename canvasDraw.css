@@ -1,0 +1,112 @@
+#canvas-plot-wrapper {
+	position: relative;
+	width: 90%;
+	height: 90%;
+}
+#canvas-plot-title {
+	font-size: 24px;
+}
+canvas {
+	position: absolute;
+	z-index: 2;
+}
+#axis-svg {
+	border: 2px solid black;
+	position: absolute;
+	/*opacity: 0.5;*/
+	z-index: 1;
+	background-color: ivory;
+}
+#catch-zoom{
+	z-index: 3;
+}
+#catch-lasso {
+	z-index: 2;
+}
+#tip {
+	background-color: white;
+	border: 1px solid steelblue;
+	position: absolute;
+	left: -900px;
+	top: 100px;
+	pointer-events: none;
+}
+h1,p {
+	font-family: helvetica;
+}
+#tooltip-ruler { /* for determining width of tooltip */
+	font-family: Arial;
+	font-size: 20px;
+	white-space: nowrap;
+	visibility: hidden;
+}
+
+
+/* icons for zoom/pan, lasso, reset */
+.icon {
+	margin-right: 10px;
+	padding: 2px;
+	color: #0D4F8B;
+	height: 20px;
+}
+
+.icon:hover {
+	cursor: pointer;
+	height: 24px;
+}
+
+.selected-icon { /* when in a given mode, highlight corresponding button icon */
+	border: solid #0D4F8B 1px;
+	height: 24px !important;
+}
+
+.mytooltips {
+	background: #F0F8FF;
+	text-decoration: none;
+	white-space: pre-line !important;
+	border: solid 1px gray;
+}
+/* slider for changing point size */
+.slider {
+	-webkit-appearance: none;
+	width: 100px;
+	height: 3px;
+	background: #4472C4;
+	outline: none;
+	/*opacity: 0.7;*/
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+	margin-bottom: 12px;
+}
+.slider:hover {
+	opacity: 0.7;
+}
+.slider::-webkit-slider-thumb { /* chrome and such */
+	-webkit-appearance: none;
+	appearance: none;
+	width: 8px;
+	height: 18px;
+	border: solid 3px #4472C4;
+	background-color: white;
+	border-radius: 25%;
+	cursor: pointer;
+}
+.slider::-moz-range-thumb {  /* firefox and such */
+	width: 8px;
+	height: 18px;
+	border: solid 3px #4472C4;
+	background-color: white; 
+	border-radius: 25%;
+	cursor: pointer;
+}
+
+/* jqueryUI for dialogs */
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+.ui-dialog-titlebar {
+  background: red;
+}
+/* end jqueryUI for dialogs */
+
+
