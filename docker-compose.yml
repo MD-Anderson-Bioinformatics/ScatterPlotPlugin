@@ -1,0 +1,14 @@
+##
+## Docker compose example for ScatterPlotPlugin
+##
+
+version: '2'
+
+services:
+  scatter-plot-plugin:
+    build: 
+      context: .
+    container_name: scatter-plot-plugin
+    ports:
+      - 9093:80
+    network_mode: bridge

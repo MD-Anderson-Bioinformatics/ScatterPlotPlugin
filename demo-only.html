@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet">
+<link rel="stylesheet" href="canvasDraw.css">
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="module" src="ngchm.js"></script>
+<script type="text/javascript" src="resources/chance.js"></script>
+<script type="module" src="canvasDraw.js"></script>
+<script src="https://d3js.org/d3-quadtree.v1.min.js"></script>
+</head>
+<body>
+	<div id="main">
+		<div id='plot-info-div'>
+			<h1 id='canvas-plot-titledd'>This page is for demonstration only</h1>
+			<p>
+				<img src='img/zoom-pan.png' class='icon mode-button' title='Zoom/Pan. Zoom with mouse whele.' id='zoom-button'>
+				<img src='img/lasso.png' class='icon mode-button' title='Lasso. Drag a shape to lasso points and/or select individual points by clicking' id='lasso-button'>
+				<input id='point-size-slider' type='range' min='1' max='10' value='5' class='slider mode-button' title='slider'>
+				<img src='img/reset.png' class='icon mode-button' title='reset' id='reset-button'>
+				<br>
+			</p>
+		</div>
+		<div id="canvas-plot-wrapper">
+			<canvas id='plot-points' class='batch'></canvas>
+			<canvas id='legend' width="200" height="500"></canvas>
+			<svg id="axis-svg"></svg>
+			<!-- 
+						The 'tip' canvas is for the tooltips.
+						The 'select-points' canvas is for selected points (via clicking).
+						The 'highlight-points' canvas is for highlighting poits (by hovering over them).
+						The 'catch-zoom' canvas is for catching mouse events for zoom/pan.
+						The 'catch-lasso' canvas is for catching mouse events for lasso/select.
+				-->
+			<canvas id='select-points'></canvas>
+			<canvas id='highlight-points'></canvas>
+			<canvas id='catch-zoom'></canvas>
+			<canvas id='catch-lasso'></canvas>
+			<canvas id='tip'></canvas>
+		</div>
+		<span id='tooltip-ruler'></span>
+	</div>
+<script type='module'>
+	import {canvasPlot} from './canvasDraw.js';
+	var globalData, plotGeometry, plotOptions;
+	d3.tsv('demo_data/data.tsv'). then(function(data) {
+		data.forEach(function(d) {
+			d.x = +d.x; /* make x and y floats (instead of strings) */
+			d.y = +d.y; /* later we will have to make adjustments for other entries */
+			d.text = d.id;  /* tooltip text*/
+		})
+		plotGeometry = {
+			marginTop: 0,
+			marginRight: 0,
+			marginBottom: 60,
+			marginLeft: 70,
+			borderWidth: 1,
+			legendVSpace:  25
+		}
+		plotOptions = {
+			pointSize: 3,
+			//highlightColor: 'black',
+			xLabel: 'x data',
+			yLabel: 'y data',
+			plotTitle: 'Demonstration',
+			legendTitle: 'Made-up data with a super duper long title',
+			separateGroupLayers: false
+		}
+		/*
+			Required format of 'data':
+				data.x: x coordiante
+				data.y: y coordinate
+				data.batch: batch Id for that coorindate
+				data.text: text for point's tooltip
+		*/
+		window.onresize = function(){
+			canvasPlot.drawPlot(canvasPlot.data, plotGeometry, plotOptions)
+		}
+		$(document).ready(function() {
+			globalData = data;
+			plotOptions.pointSize = document.getElementById('point-size-slider').value;
+			canvasPlot.batchIds = canvasPlot.getBatchIds(globalData)
+			canvasPlot.data = data
+			canvasPlot.drawPlot(canvasPlot.data,plotGeometry,plotOptions,false)
+			let slider = document.getElementById('point-size-slider')
+			slider.oninput = function() {
+				plotOptions['pointSize'] = this.value
+				canvasPlot.drawPlot(canvasPlot.data, plotGeometry, plotOptions)
+			}
+		})
+	})
+		$('.mode-button').tooltip({
+			classes: {'ui-tooltip':'mytooltips'}
+		})
+		$('.mode-button').tooltip("option","classes.ui-tooltip","mytooltips");
+		document.getElementById('reset-button').addEventListener('click', function() {
+			console.log('clicked reset button')
+			delete canvasPlot.g_transform
+			canvasPlot.initialPlotDrawn = false;
+			canvasPlot.drawPlot(canvasPlot.data, plotGeometry, plotOptions)
+		})
+	</script>
+</body>
+</html>
