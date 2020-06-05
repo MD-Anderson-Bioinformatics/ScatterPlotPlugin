@@ -61,7 +61,7 @@ function highlightPoint (point ,ctx, xScale, yScale) {
 function postHighlightPoint(point) {
 	VAN.postMessage({
 		op: 'mouseover',
-		selection: {axis: 'column', pointId: point.text}
+		selection: {axis: canvasPlot.axis, pointId: point.text}
 	});
 }
 
@@ -81,7 +81,7 @@ function arraysEqual(a, b) {
 function postSelectLabels(points,clickType) {
 	if (arraysEqual(points,postedPoints)) { return} // if nothing changed, don't postMessage
 	var hiLiteInfo = {}
-	hiLiteInfo.axis = 'column'
+	hiLiteInfo.axis = canvasPlot.axis
 	hiLiteInfo.pointIds = points.map(function(p) {return p.text})
 	hiLiteInfo.clickType = clickType;
 	VAN.postMessage({
