@@ -142,6 +142,9 @@ VAN.addMessageListener ('plot', function plotMessageHandler (vanodi) {
 });
 
 VAN.addMessageListener ('makeHiLite', function hiliteMessageHandler (vanodi) {
+	if (canvasPlot.axis && canvasPlot.axis.toLowerCase() != vanodi.data.axis.toLowerCase()) {
+		return false
+	}
 	canvasPlot.clearSelectedPoints();
 	canvasPlot.clearLassoCanvas();
 	// From vanodi message, get the data points to select on the scatter plot
