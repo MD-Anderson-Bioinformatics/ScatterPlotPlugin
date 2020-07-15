@@ -474,8 +474,8 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 	var dragCoords;  // <-- coordiantes of mouse point as we drag
 	var selectedByDrag = [] // <-- data points selected by drag
 	var isDrawing = false
-	const zoomCursor = "url('img/zoom-pan-black-30x30.png') 10 10,pointer";
-	const lassoCursor = "url('img/lasso-arrow-30x30.png') 4 5,pointer"
+	const zoomCursor = "url('img/zoom-arrow-50x50.png') 0 0, pointer";
+	const lassoCursor = "url('img/lasso-arrow-50x50.png') 0 0, pointer"
 	function lassostart() {
 		dragCoords = []
 		selectedByDrag = []
