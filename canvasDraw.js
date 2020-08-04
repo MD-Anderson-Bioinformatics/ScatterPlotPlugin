@@ -407,6 +407,18 @@ function showTooltip(data,quadtree,distanceCheck,rect) {
 	}
 }
 
+// Function to update color and batch of selected points
+function updateSelectedPointColors(allPoints, selectedPoints) {
+	selectedPoints.forEach( sp => {
+		let np = allPoints.filter(p => {
+			return ( sp.text == p.text && sp.x == p.x && sp.y == p.y  );
+		})
+		sp.color = np[0].color;
+		sp.batch = np[0].batch;
+	})
+	return selectedPoints;
+}
+
 // Exported function.
 // Make plot
 //  - Draw points for each batch in the appropriate canvas element
@@ -438,6 +450,8 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 	document.getElementById('canvas-plot-wrapper').style.display = 'block';
 	createAxes(canvasPlot.data, canvasPlot.xScale, canvasPlot.yScale);
 	drawActualPoints(canvasPlot.data, canvasPlot.xScale, canvasPlot.yScale);
+	clearLassoCanvas();
+	selectedPoints = updateSelectedPointColors(canvasPlot.data, selectedPoints);
 	selectedPoints.forEach(function(dot) {
 		highlightPoint(dot, selectCtx, canvasPlot.xScale, canvasPlot.yScale);
 	})
