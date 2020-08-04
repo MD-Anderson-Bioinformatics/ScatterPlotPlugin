@@ -146,7 +146,6 @@ VAN.addMessageListener ('makeHiLite', function hiliteMessageHandler (vanodi) {
 		return false
 	}
 	canvasPlot.clearSelectedPoints();
-	canvasPlot.clearLassoCanvas();
 	// From vanodi message, get the data points to select on the scatter plot
 	var pointsToSelect = ScatterPlot.plotData.filter(function(pd) {
 		if (vanodi.data.pointIds.indexOf(pd.text) > -1) {

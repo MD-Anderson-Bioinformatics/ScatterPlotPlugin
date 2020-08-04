@@ -5,7 +5,6 @@ import { VAN } from './ngchm.js';
 export const canvasPlot = {
 	selectPoint,
 	clearSelectedPoints,
-	clearLassoCanvas,
 	highlightPoint,
 	drawPlot,
 	getBatchIds
@@ -24,13 +23,6 @@ function clearSelectedPoints () {
 	selectedPoints = [];
 }
 
-// Exported function.
-// Function to clear lasso canvas
-function clearLassoCanvas () {
-	var lassoCanvas = document.getElementById('catch-lasso')
-	var lassoCtx = lassoCanvas.getContext('2d')
-	lassoCtx.clearRect(0, 0, lassoCanvas.offsetWidth, lassoCanvas.offsetHeight)
-}
 
 // Function to draw point (p) in canvas context (ctx)
 function drawPoint(p,ctx, xScale, yScale) {
@@ -249,10 +241,6 @@ function setSize() {
 	zoomCanvas.style.left = lefty;
 	zoomCanvas.width = widthy;
 	zoomCanvas.height = heighty;
-	var lassoCanvas = document.getElementById('catch-lasso');
-	lassoCanvas.style.left = lefty;
-	lassoCanvas.width = widthy;
-	lassoCanvas.height = heighty;
 	var highlightCanvas = document.getElementById('highlight-points');
 	highlightCanvas.style.left = lefty;
 	highlightCanvas.width = widthy;
@@ -437,8 +425,6 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 		d3.select('#catch-zoom').call(d3.zoom().transform, d3.zoomIdentity)
 	}
 	// define canvases and contexts
-	var lassoCanvas = document.getElementById("catch-lasso");
-	var lassoCtx = lassoCanvas.getContext("2d");
 	var tipCanvas = document.getElementById("tip")
 	var tipCtx = tipCanvas.getContext("2d");
 	var highlightCanvas = document.getElementById('highlight-points');
@@ -450,7 +436,6 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 	document.getElementById('canvas-plot-wrapper').style.display = 'block';
 	createAxes(canvasPlot.data, canvasPlot.xScale, canvasPlot.yScale);
 	drawActualPoints(canvasPlot.data, canvasPlot.xScale, canvasPlot.yScale);
-	clearLassoCanvas();
 	selectedPoints = updateSelectedPointColors(canvasPlot.data, selectedPoints);
 	selectedPoints.forEach(function(dot) {
 		highlightPoint(dot, selectCtx, canvasPlot.xScale, canvasPlot.yScale);
@@ -462,7 +447,7 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 	    var colors = getColors(canvasPlot.batchIds, canvasPlot.data);
 	    createLegend(colors);
 	}
-	var rect  = lassoCanvas.getBoundingClientRect();
+	var rect  = highlightCanvas.getBoundingClientRect();
 	canvasPlot.initialClosePointDistance = getDistanceCheck(canvasPlot.data,canvasPlot.xScale,canvasPlot.yScale)
 	canvasPlot.distanceCheck = canvasPlot.initialClosePointDistance;
 	var quadtree = d3.quadtree().addAll(canvasPlot.data.map(function(d) { return [d.x,d.y] }));
@@ -495,7 +480,6 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 		selectedByDrag = []
 		if (!d3.event.sourceEvent.metaKey && !d3.event.sourceEvent.ctrlKey) {
 			selectedPoints = []
-			lassoCtx.clearRect(0, 0, width, height);
 			selectCtx.clearRect(0, 0, width, height);
 		}
 		StartDmouseX = d3.event.x  - canvasPlot.plotGeometry.marginLeft;
@@ -517,25 +501,25 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 				selectedByDrag.push(d)
 			}
 		})
-		lassoCtx.beginPath();
-		lassoCtx.strokeStyle = plotOptions.lassoColor;
-		lassoCtx.lineWidth = 2;
-		lassoCtx.moveTo(lastX, lastY)
-		lassoCtx.lineTo(DmouseX, DmouseY)
-		lassoCtx.closePath();
-		lassoCtx.stroke()
+		selectCtx.beginPath();
+		selectCtx.strokeStyle = plotOptions.lassoColor;
+		selectCtx.lineWidth = 2;
+		selectCtx.moveTo(lastX, lastY)
+		selectCtx.lineTo(DmouseX, DmouseY)
+		selectCtx.closePath();
+		selectCtx.stroke()
 		lastX = DmouseX;
 		lastY = DmouseY;
 	}
 	function lassoend() {
 		if (isDrawing == true) {
-			lassoCtx.beginPath();
-			lassoCtx.strokeStyle = plotOptions.lassoColor;
-			lassoCtx.lineWidth = 2;
-			lassoCtx.moveTo(DmouseX, DmouseY)
-			lassoCtx.lineTo(StartDmouseX, StartDmouseY)
-			lassoCtx.closePath();
-			lassoCtx.stroke()
+			selectCtx.beginPath();
+			selectCtx.strokeStyle = plotOptions.lassoColor;
+			selectCtx.lineWidth = 2;
+			selectCtx.moveTo(DmouseX, DmouseY)
+			selectCtx.lineTo(StartDmouseX, StartDmouseY)
+			selectCtx.closePath();
+			selectCtx.stroke()
 			isDrawing = false;
 		}
 		// add points selected by dragging to the list of selected points
@@ -556,7 +540,6 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 		}
 	}
 	function zoomed() {
-		lassoCtx.clearRect(0, 0, width, height);
 		selectCtx.clearRect(0, 0, width, height);
 		var transform = d3.event.transform;
 		canvasPlot.xScale = transform.rescaleX(xScale); // use D3 transform to get 
