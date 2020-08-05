@@ -503,12 +503,22 @@ function showTooltip(data,quadtree,distanceCheck,rect) {
 function updateSelectedPointColors(allPoints, selectedPoints) {
 	selectedPoints.forEach( sp => {
 		let np = allPoints.filter(p => {
-			return ( sp.text == p.text && sp.x == p.x && sp.y == p.y  );
+			return ( sp.text == p.text );
 		})
 		sp.color = np[0].color;
 		sp.batch = np[0].batch;
 	})
 	return selectedPoints;
+}
+
+/* Function to check for duplicate entries in an array */
+function hasDuplicates(array) {
+	return new Set(array).size !== array.length;
+}
+
+function findDuplicates(array) {
+	let objTmp = {};
+	return array.filter(a => a in objTmp ? true : (objTmp[a] = true) && false, objTmp)
 }
 
 /*
@@ -531,6 +541,16 @@ function updateSelectedPointColors(allPoints, selectedPoints) {
  *               [ <batch id>, <corresponding hex color> ]
 */
 function drawPlot (data,plotGeometry,plotOptions,colorMap) {
+	if (hasDuplicates(data.map(d => {return d.text}))) {
+		// For performance reasons we find the duplicated values if needed
+		let duplicateValues = findDuplicates(data.map(d => {return d.text}))
+		$("<div title='Error: Duplicated Data'>" +
+			"Dataset has duplicate 'text' fields. Please ensure each is unique.<br>" +
+			"Duplicated value(s):<br><br>" +
+			duplicateValues.join('<br>') + "</div>")
+		.dialog({classes: {"ui-dialog-titlebar": "ui-corner-all custom-red"}})
+		return;
+	}
 	clearPlotArea()
 	canvasPlot.plotGeometry = initializeGeometry(plotGeometry); 
 	canvasPlot.plotOptions = initializeOptions(plotOptions); 
