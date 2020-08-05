@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8"/>
-<link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <link rel="stylesheet" href="canvasDraw.css">
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
@@ -31,14 +31,12 @@
 			<!-- 
 						The 'tip' canvas is for the tooltips.
 						The 'select-points' canvas is for selected points (via clicking).
-						The 'highlight-points' canvas is for highlighting points (by hovering over them).
+						The 'highlight-points' canvas is for highlighting points (by hovering over them or lasso).
 						The 'catch-zoom' canvas is for catching mouse events for zoom/pan.
-						The 'catch-lasso' canvas is for catching mouse events for lass/select.
 				-->
 			<canvas id='select-points'></canvas>
 			<canvas id='highlight-points'></canvas>
 			<canvas id='catch-zoom'></canvas>
-			<canvas id='catch-lasso'></canvas>
 			<canvas id='tip'></canvas>
 		</div>
 		<span id='tooltip-ruler'></span>

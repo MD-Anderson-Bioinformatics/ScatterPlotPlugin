@@ -5,7 +5,6 @@ import { VAN } from './ngchm.js';
 export const canvasPlot = {
 	selectPoint,
 	clearSelectedPoints,
-	clearLassoCanvas,
 	highlightPoint,
 	drawPlot,
 	getBatchIds
@@ -14,25 +13,27 @@ export const canvasPlot = {
 var selectedPoints = []; // keep track of selected points
 var postedPoints = [];
 
-// Exported function.
+// Exported function to add to selected points list
 function selectPoint (poi) {
 	selectedPoints.push(poi);
 }
 
-// Exported function.
+// Exported function to clear selected points list
 function clearSelectedPoints () {
 	selectedPoints = [];
 }
 
-// Exported function.
-// Function to clear lasso canvas
-function clearLassoCanvas () {
-	var lassoCanvas = document.getElementById('catch-lasso')
-	var lassoCtx = lassoCanvas.getContext('2d')
-	lassoCtx.clearRect(0, 0, lassoCanvas.offsetWidth, lassoCanvas.offsetHeight)
-}
-
-// Function to draw point (p) in canvas context (ctx)
+/*
+ * Function to draw an individual point
+ *
+ * Parameters:
+ *   p : object representing point, of the form:
+ *        { batch: <batch Id>, color: <hex color>, text: <point name>,
+ *          x: <x-coordinate>, y: <y-coordinate> }
+ *   ctx: canvas context on which to draw
+ *   xScale: scale function for x axis (from D3)
+ *   yScale: scale function for y axis (from D3)
+*/
 function drawPoint(p,ctx, xScale, yScale) {
 	ctx.fillStyle = p.color;
 	ctx.beginPath()
@@ -40,13 +41,20 @@ function drawPoint(p,ctx, xScale, yScale) {
 	ctx.fill()
 }
 
-// Exported function.
-// Function to highlight point obtained from quatreee
-// (all we get back from quadtree are x,y coordinates of point)
-// This is used to 'highlight' and to 'select'. 
-//    When 'highlighting' send the highlight canvas context as ctx
-//    When 'selecting' send the select canvas context as ctx
-function highlightPoint (point ,ctx, xScale, yScale) {
+/*
+ * Function to highlight a point. Exported
+ *
+ * Parameters:
+ *    point: object representing a point, of the form:
+ *        { batch: <batch Id>, color: <hex color>, text: <point name>,
+ *          x: <x-coordinate>, y: <y-coordinate> }
+ *   ctx: canvas context on which to draw. (e.g. for a mouseover this
+ *        might be the highlight canvas context, and for a selection
+ *        this might be the lasso canvas context).
+ *   xScale: scale function for x axis (from D3)
+ *   yScale: scale function for y axis (from D3)
+*/
+function highlightPoint (point, ctx, xScale, yScale) {
 	drawPoint(point, ctx, xScale, yScale)
 	ctx.strokeStyle = canvasPlot.plotOptions.highlightColor;
 	ctx.lineWidth = 2;
@@ -57,7 +65,9 @@ function highlightPoint (point ,ctx, xScale, yScale) {
 	ctx.stroke();
 }
 
-// Post vanodi message to parent (probably NGCHM) about point mouseover
+/*
+ * Function to post vanodi message to parent about mouseover
+*/
 function postHighlightPoint(point) {
 	VAN.postMessage({
 		op: 'mouseover',
@@ -65,8 +75,9 @@ function postHighlightPoint(point) {
 	});
 }
 
-// quick function to check if arrays are equal,
-// because we only want to post a message if something has changed
+/*
+ * Function to check if arrays are equal
+*/
 function arraysEqual(a, b) {
 	if (a === b) return true;
 	if (a == null || b == null) return false;
@@ -77,7 +88,9 @@ function arraysEqual(a, b) {
 	return true;
 }
 
-// Post vanodi message to parent (probably NGCHM) about selected points
+/*
+ * Function to post vanodi message to parent about selected points
+*/
 function postSelectLabels(points,clickType) {
 	if (arraysEqual(points,postedPoints)) { return} // if nothing changed, don't postMessage
 	var hiLiteInfo = {}
@@ -91,6 +104,9 @@ function postSelectLabels(points,clickType) {
 	postedPoints = points;
 }
 
+/*
+ * Function to create scale function for x axis via D3
+*/
 function createXScale(data, transform) {
 	var xExtent = d3.extent(data, function(d) {return (d.x-transform.x)*transform.k});
 	var xPadding = (xExtent[1] - xExtent[0]) * 0.05;
@@ -99,6 +115,9 @@ function createXScale(data, transform) {
 		.range([0, canvasPlot.plotGeometry.width])
 }
 
+/*
+ * Function to create scale function for y axis via D3
+*/
 function createYScale(data, transform) {
 	var yExtent = d3.extent(data, function(d) {return (d.y+transform.y)*transform.k});
 	var yPadding =  (yExtent[1] - yExtent[0]) * 0.05;
@@ -107,7 +126,17 @@ function createYScale(data, transform) {
 		.range([canvasPlot.plotGeometry.height, 0])
 }
 
-// Create x-axis and y-axis using D3
+/*
+ * Function to create x and y axis elements using D3. 
+ * 
+ * Parameters:
+ *    data: list of objects representing points, each of the form:
+ *        { batch: <batch Id>, color: <hex color>, text: <point name>,
+ *          x: <x-coordinate>, y: <y-coordinate> }
+ *    xScale: scale function for x axis (from D3)
+ *    yScale: scale function for y axis (from D3)
+ *    
+*/
 function createAxes(data, xScale, yScale) {
 	var svg = d3.select('#axis-svg')
 	svg.style('background-color',canvasPlot.plotOptions.backgroundColor)
@@ -155,13 +184,23 @@ function createAxes(data, xScale, yScale) {
 		.text(canvasPlot.plotOptions.yLabel)
 }
 
-// Exported function
-// Function to return array of batch IDs, sorted smallest to largest
+/*
+ * Function to get batch ids of input data, sorted smallest group to largest group.
+ * Exported
+ *
+ *  Parameters:
+ *    data: list of objects representing points, each of the form:
+ *        { batch: <batch Id>, color: <hex color>, text: <point name>,
+ *          x: <x-coordinate>, y: <y-coordinate> }
+ *
+ *  Returns:
+ *     batchIds: list of batch IDs, sorted smallest to largest in size
+*/
 function getBatchIds(data) {
 	var batchIds = Array.from(new Set(data.map(function(el) { return el.batch })))
 	try {document.getElementById('npoints').innerHTML = data.length} catch {}
 	try {document.getElementById('nbatches').innerHTML = batchIds.length} catch{}
-	var cardiB = batchIds.map(function(bid) {
+	var cardiB = batchIds.map(function(bid) { // cardinality of each batch
 		var zeta = data.filter(function(el) {
 			return el.batch == bid;
 		}).length
@@ -177,9 +216,18 @@ function getBatchIds(data) {
 	return batchIds;
 }
 
-// Function to get array of array of batchIds and their
-// corresponding colors. Structure of 'colors' array:
-// [ [batchId 1, color 1], [batchId 2, color 2], etc.]
+/*
+ * Function to get list of batch IDs and corresponding colors.
+ * 
+ * Parameters:
+ *   batchIds: list of batch Ids
+ *   data: list of objects representing points, each of the form:
+ *        { batch: <batch Id>, color: <hex color>, text: <point name>,
+ *          x: <x-coordinate>, y: <y-coordinate> }
+ * Returns:
+ *    colors: array of batch id and corresponding color, each element
+ *            in colors is of the form: [ <batch name>, <hex color> ]
+*/
 function getColors(batchIds,data) {
 	var colors = [];
 	var entry;
@@ -195,8 +243,14 @@ function getColors(batchIds,data) {
 	return colors;
 }
 
-// Function to draw legend on canvas with id = 'legend'
-// input is the output of getColors
+/*
+ * Function to create legend. Will draw legend on canvas
+ * with id = 'legend'
+ *
+ * Parameters:
+ *    colors: list of color information, each element of the list
+ *            is of the form: [ <batch id>, <hex color> ]
+*/
 function createLegend(colors) {
 	var c, text, xloc, yloc, legendWidth, textWidth
 	// set width based on longest string....
@@ -232,10 +286,9 @@ function createLegend(colors) {
 	}
 }
 
-// Function to set size of SVG (for axes) and plot area (for canvases)
-// Also places the legend to the right of the canvases. Note that there
-// was a lot of futzing aorund between using the attribute vs style for
-// with and height. 
+/*
+ * Function to set size of axes SVG and plot area canvases.
+*/
 function setSize() {
 	var svg = document.getElementById('axis-svg')
 	// use style here, because width seems only a getter for svg
@@ -249,10 +302,6 @@ function setSize() {
 	zoomCanvas.style.left = lefty;
 	zoomCanvas.width = widthy;
 	zoomCanvas.height = heighty;
-	var lassoCanvas = document.getElementById('catch-lasso');
-	lassoCanvas.style.left = lefty;
-	lassoCanvas.width = widthy;
-	lassoCanvas.height = heighty;
 	var highlightCanvas = document.getElementById('highlight-points');
 	highlightCanvas.style.left = lefty;
 	highlightCanvas.width = widthy;
@@ -270,7 +319,7 @@ function setSize() {
 	legendCanvas.height= canvasPlot.plotGeometry.height;
 }
 
-// Function to clear plot area of points, axes labels, tick marks, etc.
+/* Function to clear plot area of points, axes labels, tick marks, etc.*/
 function clearPlotArea() {
 	var pointsCanvas = document.getElementById('plot-points')
 	var pointsCtx = pointsCanvas.getContext('2d')
@@ -280,18 +329,21 @@ function clearPlotArea() {
 	clearSelectedPointsCanvas()
 }
 
+/* Function to clear the highlight canvas */
 function clearHighlightCanvas() {
 	var highlightCanvas = document.getElementById('highlight-points')
 	var highlightCtx = highlightCanvas.getContext('2d')
 	highlightCtx.clearRect(0, 0, highlightCanvas.offsetWidth, highlightCanvas.offsetHeight)
 }
 
+/* Function to clear the selected points canvas */
 function clearSelectedPointsCanvas() {
 	var selectedPointsCanvas = document.getElementById('select-points')
 	var selectedCtx = selectedPointsCanvas.getContext('2d')
 	selectedCtx.clearRect(0, 0, selectedPointsCanvas.offsetWidth, selectedPointsCanvas.offsetHeight)
 }
 
+/* Function to clear x and y axis elements */
 function clearAxes() {
 	var svgElem = document.getElementById('axis-svg') // remove axis, axis labels, tick marks, etc
 	while (svgElem.firstChild) {
@@ -299,14 +351,14 @@ function clearAxes() {
 	}
 }
 
-// Function to clear legend
+/* Function to clear legend */
 function clearLegend() {
 	var canvas = document.getElementById('legend');
 	var ctx = canvas.getContext('2d');
 	ctx.clearRect(0, 0, canvas.offsetWidth, canvas.offsetHeight);
 }
 
-// Initialize plotOptions
+/* Function to initialize plotOptions */
 function initializeOptions(plotOptions) {
 	var op = {}
 	op.pointSize = plotOptions.hasOwnProperty('pointSize') ? plotOptions.pointSize : 4;
@@ -321,7 +373,7 @@ function initializeOptions(plotOptions) {
 	return op
 }
 
-// Initialize plotGeometry
+/* Function to initialize plotGeometry */
 function initializeGeometry(plotGeometry) {
 	var geo = {}
 	geo.width = plotGeometry.hasOwnProperty('width') ? plotGeometry.width : window.innerWidth * .7;
@@ -337,14 +389,14 @@ function initializeGeometry(plotGeometry) {
 	return geo;
 }
 
-// Get the visual width of text (for sizing the tooltip width)
+/* Get the visual width of text (for sizing the tooltip width) */
 String.prototype.visualLength = function() {
 	var ruler = document.getElementById('tooltip-ruler')
 	ruler.innerHTML = this;
 	return ruler.offsetWidth;
 };
 
-// Draw all the points on the points canvas
+/* Function to draw all the points on the points canvas */
 function drawActualPoints(data, xScale, yScale) {
 	var drawCanvas = document.getElementById('plot-points')
 	var drawCtx = drawCanvas.getContext('2d')
@@ -353,8 +405,20 @@ function drawActualPoints(data, xScale, yScale) {
 	})
 }
 
-// Function to estimate distance to use when checking quadtree for
-// the point nearest the current mouse position.
+/*
+ * Function to estimate distance for determining close points
+ * (typically to find point closes to mouse)
+ *
+ * Parameters:
+ *    data: list of objects representing points, each of the form:
+ *        { batch: <batch Id>, color: <hex color>, text: <point name>,
+ *          x: <x-coordinate>, y: <y-coordinate> }
+ *    xScale: scale function for x axis (from D3)
+ *    yScale: scale function for y axis (from D3)
+ *
+ * Returns:
+ *    dc: distance check distance
+*/
 function getDistanceCheck(data,xScale,yScale) {
 	var xExtent = d3.extent(data.map(function(d) {return d.x}))
 	var yExtent = d3.extent(data.map(function(d) {return d.y}))
@@ -364,7 +428,18 @@ function getDistanceCheck(data,xScale,yScale) {
 	return dc;
 }
 
-// Show tooltip when hovering near point
+/*
+ * Function to display tooltip when hovering near point
+ * 
+ * Parameters:
+ *    data: list of objects representing points, each of the form:
+ *        { batch: <batch Id>, color: <hex color>, text: <point name>,
+ *          x: <x-coordinate>, y: <y-coordinate> }
+ *    quadtree: quadtree of the data generated from D3
+ *    distanceCheck: floating point value, if mouse is closer than this
+ *                   to a point, that point's tooltip will be displayed
+ *    rect: canvas bounding client rect, used to determine mouse position
+*/
 function showTooltip(data,quadtree,distanceCheck,rect) {
 	var e = window.event;
 	var mouseX = e.pageX - rect.left - 4;
@@ -407,10 +482,75 @@ function showTooltip(data,quadtree,distanceCheck,rect) {
 	}
 }
 
-// Exported function.
-// Make plot
-//  - Draw points for each batch in the appropriate canvas element
+/*
+ * Function to update the color and batch ID of selected points
+ * (called when user changes the 'Color By' value)
+ *
+ * Parameters:
+ *     allPoints: array of objects representing all points. Each entry
+ *                of the form:
+ *                { batch: <batch Id>, color: <hex color>, text: <point name>,
+ *                x: <x-coordinate>, y: <y-coordinate> }
+ *     selectedPoints: array of objects representing selected points. Each entry
+ *                of the form:
+ *                { batch: <batch Id>, color: <hex color>, text: <point name>,
+ *                x: <x-coordinate>, y: <y-coordinate> }
+ *
+ * Returns:
+ *    selectedPoints: the same selected points array, but with the 'batch' and
+ *                    'color' elements updated to the new values.
+*/
+function updateSelectedPointColors(allPoints, selectedPoints) {
+	selectedPoints.forEach( sp => {
+		let np = allPoints.filter(p => {
+			return ( sp.text == p.text );
+		})
+		sp.color = np[0].color;
+		sp.batch = np[0].batch;
+	})
+	return selectedPoints;
+}
+
+/* Function to check for duplicate entries in an array */
+function hasDuplicates(array) {
+	return new Set(array).size !== array.length;
+}
+
+function findDuplicates(array) {
+	let objTmp = {};
+	return array.filter(a => a in objTmp ? true : (objTmp[a] = true) && false, objTmp)
+}
+
+/*
+ * Main function for making plot. Exported
+ *
+ * This function also contains the functions/event listeners for zoom, lasso, etc.
+ *   - Uses D3's drag for lassoing points to select them and send selected point
+ *     information to parent window
+ *   - Usese D3's zoom for zooming plot
+ *   - Handles changes between 'zoom' and 'lasso' modes
+ *   - Handles show/hide of tooltip labels
+ *
+ * Input parameters:
+ *    data : list of objects corresponding to data. Each object has the form:
+ *             { batch: <batch name>, color: <hex color>, text: <point name>,
+ *               x: <x coordinate>, y: <y coordinate> }
+ *    plotGeometry : object with plot geometry (e.g. width, height). See initializeGeometry()
+ *    plotOptions : object with plot options (e.g. point size, background color). See initializeOptions()
+ *    colorMap : list of lists with color information for each batch. Each list has the form:
+ *               [ <batch id>, <corresponding hex color> ]
+*/
 function drawPlot (data,plotGeometry,plotOptions,colorMap) {
+	if (hasDuplicates(data.map(d => {return d.text}))) {
+		// For performance reasons we find the duplicated values if needed
+		let duplicateValues = findDuplicates(data.map(d => {return d.text}))
+		$("<div title='Error: Duplicated Data'>" +
+			"Dataset has duplicate 'text' fields. Please ensure each is unique.<br>" +
+			"Duplicated value(s):<br><br>" +
+			duplicateValues.join('<br>') + "</div>")
+		.dialog({classes: {"ui-dialog-titlebar": "ui-corner-all custom-red"}})
+		return;
+	}
 	clearPlotArea()
 	canvasPlot.plotGeometry = initializeGeometry(plotGeometry); 
 	canvasPlot.plotOptions = initializeOptions(plotOptions); 
@@ -425,8 +565,6 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 		d3.select('#catch-zoom').call(d3.zoom().transform, d3.zoomIdentity)
 	}
 	// define canvases and contexts
-	var lassoCanvas = document.getElementById("catch-lasso");
-	var lassoCtx = lassoCanvas.getContext("2d");
 	var tipCanvas = document.getElementById("tip")
 	var tipCtx = tipCanvas.getContext("2d");
 	var highlightCanvas = document.getElementById('highlight-points');
@@ -438,17 +576,22 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 	document.getElementById('canvas-plot-wrapper').style.display = 'block';
 	createAxes(canvasPlot.data, canvasPlot.xScale, canvasPlot.yScale);
 	drawActualPoints(canvasPlot.data, canvasPlot.xScale, canvasPlot.yScale);
+	selectedPoints = updateSelectedPointColors(canvasPlot.data, selectedPoints);
 	selectedPoints.forEach(function(dot) {
 		highlightPoint(dot, selectCtx, canvasPlot.xScale, canvasPlot.yScale);
 	})
 	clearLegend()
 	if (colorMap) {
-	    createLegend(colorMap);
+		createLegend(colorMap);
 	} else {
-	    var colors = getColors(canvasPlot.batchIds, canvasPlot.data);
-	    createLegend(colors);
+		var colors = getColors(canvasPlot.batchIds, canvasPlot.data);
+		createLegend(colors);
 	}
-	var rect  = lassoCanvas.getBoundingClientRect();
+	var rect  = highlightCanvas.getBoundingClientRect();
+	var pointsCanvas = document.getElementById('plot-points')
+	var batchCtx = pointsCanvas.getContext('2d')
+	var width = pointsCanvas.width
+	var height = pointsCanvas.height
 	canvasPlot.initialClosePointDistance = getDistanceCheck(canvasPlot.data,canvasPlot.xScale,canvasPlot.yScale)
 	canvasPlot.distanceCheck = canvasPlot.initialClosePointDistance;
 	var quadtree = d3.quadtree().addAll(canvasPlot.data.map(function(d) { return [d.x,d.y] }));
@@ -471,17 +614,16 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 		return inside;
 	}
 	// Using D3's call(d3.drag()) to handle selecting points when user drags on canvas
-	var dragCoords;  // <-- coordiantes of mouse point as we drag
+	var dragCoords;  // <-- coordinates of mouse point as we drag
 	var selectedByDrag = [] // <-- data points selected by drag
 	var isDrawing = false
 	const zoomCursor = "url('img/zoom-arrow-50x50.png') 0 0, pointer";
 	const lassoCursor = "url('img/lasso-arrow-50x50.png') 0 0, pointer"
-	function lassostart() {
+	function lassostart() {  // start of drag
 		dragCoords = []
 		selectedByDrag = []
 		if (!d3.event.sourceEvent.metaKey && !d3.event.sourceEvent.ctrlKey) {
 			selectedPoints = []
-			lassoCtx.clearRect(0, 0, width, height);
 			selectCtx.clearRect(0, 0, width, height);
 		}
 		StartDmouseX = d3.event.x  - canvasPlot.plotGeometry.marginLeft;
@@ -489,7 +631,7 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 		lastX = StartDmouseX; 
 		lastY = StartDmouseY; 
 	}
-	function lassoed() {
+	function lassoed() {  // during drag
 		selectedByDrag = []
 		isDrawing = true;
 		DmouseX = d3.event.x  - canvasPlot.plotGeometry.marginLeft;
@@ -503,25 +645,25 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 				selectedByDrag.push(d)
 			}
 		})
-		lassoCtx.beginPath();
-		lassoCtx.strokeStyle = plotOptions.lassoColor;
-		lassoCtx.lineWidth = 2;
-		lassoCtx.moveTo(lastX, lastY)
-		lassoCtx.lineTo(DmouseX, DmouseY)
-		lassoCtx.closePath();
-		lassoCtx.stroke()
+		selectCtx.beginPath();
+		selectCtx.strokeStyle = plotOptions.lassoColor;
+		selectCtx.lineWidth = 2;
+		selectCtx.moveTo(lastX, lastY)
+		selectCtx.lineTo(DmouseX, DmouseY)
+		selectCtx.closePath();
+		selectCtx.stroke()
 		lastX = DmouseX;
 		lastY = DmouseY;
 	}
-	function lassoend() {
+	function lassoend() {  // end of drag
 		if (isDrawing == true) {
-			lassoCtx.beginPath();
-			lassoCtx.strokeStyle = plotOptions.lassoColor;
-			lassoCtx.lineWidth = 2;
-			lassoCtx.moveTo(DmouseX, DmouseY)
-			lassoCtx.lineTo(StartDmouseX, StartDmouseY)
-			lassoCtx.closePath();
-			lassoCtx.stroke()
+			selectCtx.beginPath();
+			selectCtx.strokeStyle = plotOptions.lassoColor;
+			selectCtx.lineWidth = 2;
+			selectCtx.moveTo(DmouseX, DmouseY)
+			selectCtx.lineTo(StartDmouseX, StartDmouseY)
+			selectCtx.closePath();
+			selectCtx.stroke()
 			isDrawing = false;
 		}
 		// add points selected by dragging to the list of selected points
@@ -530,8 +672,21 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 		})
 		postSelectLabels(selectedPoints,'ctrlClick') // make only actually selected points appear on heatmap
 	}
-	var subsetData 
-	var subsetHighlight; // subset of highlighted points to draw while zooming
+	// For large datasets, zooming with the full dataset is too slow, 
+	// therefore only a subset of the data and highlighted points is drawn during the zoom
+	var subsetData, subsetHighlight;  
+	function getSmallerData(array) { // get subset of data
+		var nth;
+		if (array.length < 12000) { 
+			nth = 2;
+		} else if (array.length < 100) {
+			nth = 1;
+		} else {
+			var nth = Math.floor(array.length / 6000) ;
+		}
+		//if (nth < 2 && array.length > 100) { nth = 10 }  // this is mostly for selected points
+		return array.filter(function(e,i) { return i % nth === nth - 1 })
+	}
 	function zoomstart() {
 		if (canvasPlot.data.length > 6000) { // then get subsets of points to plot during zoom
 			subsetData = getSmallerData(canvasPlot.data); 
@@ -541,8 +696,7 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 			subsetHighlight = selectedPoints;
 		}
 	}
-	function zoomed() {
-		lassoCtx.clearRect(0, 0, width, height);
+	function zoomed() {  // during zoom
 		selectCtx.clearRect(0, 0, width, height);
 		var transform = d3.event.transform;
 		canvasPlot.xScale = transform.rescaleX(xScale); // use D3 transform to get 
@@ -586,7 +740,6 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 	var maxZoom = 50
 	function doTheZoom() {
 		d3.select('#catch-zoom')
-			//.call(d3.zoom().transform, d3.zoomIdentity)
 			.call(d3.zoom()
 				.scaleExtent([0,maxZoom])
 				.on("start", zoomstart)
@@ -601,9 +754,9 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 			.on(".zoom", null)
 			.on(".end", null)
 	}
-
+	// Default start in zoom mode. Change to corresponding mode if user clicks
+	// 'zoom-button' or 'lasso-button'. Toggle between zoom and lasso if user presses 's' key
 	var theMode = 'zoom'
-
 	document.getElementById('zoom-button').addEventListener('click', (event) => {
 		document.getElementById('zoom-button').classList.add('selected-icon')
 		document.getElementById('lasso-button').classList.remove('selected-icon')
@@ -620,9 +773,6 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 		doTheLasso()
 		theMode = 'lasso'
 	}, false)
-	/*
-			Listen for keydown. If 's' is pressed, toggle between 'zoom/pan' and 'lasso' settings
-	*/
 	document.addEventListener('keydown', (event) => {
 		var key = event.key || event.keyCode;
 		if (key != 's') {return}
@@ -642,26 +792,11 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 			theMode = 'zoom'
 		}
 	})
-	var pointsCanvas = document.getElementById('plot-points')
-	var batchCtx = pointsCanvas.getContext('2d')
-	var width = pointsCanvas.width
-	var height = pointsCanvas.height
-	var mouseX, mouseY
-	// function to get data small enough for zooming 
-	function getSmallerData(array) {
-		var nth;
-		if (array.length < 12000) { 
-			nth = 2;
-		} else if (array.length < 100) {
-			nth = 1;
-		} else {
-			var nth = Math.floor(array.length / 6000) ;
-		}
-		//if (nth < 2 && array.length > 100) { nth = 10 }  // this is mostly for selected points
-		return array.filter(function(e,i) { return i % nth === nth - 1 })
-	}
-	document.getElementById('catch-zoom').addEventListener('mousemove', function() {showTooltip(canvasPlot.data,quadtree,canvasPlot.distanceCheck,rect)}, false)
-	// hide tooltips when mouse moves off canvases:
+	// show tooltips when mouse is moving over points
+	document.getElementById('catch-zoom').addEventListener('mousemove', function() {
+		showTooltip(canvasPlot.data,quadtree,canvasPlot.distanceCheck,rect)
+	}, false)
+	// hide tooltips when mouse moves off canvas:
 	document.getElementById('catch-zoom').addEventListener('mouseout', function() { 
 		tipCanvas.style.left = "-900px"; // move tooltip off view 
 		tipCanvas.style.top = "100px";

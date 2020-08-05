@@ -1,654 +1,686 @@
 id	x	y	batch	color
-0,0	0	0	1	#0DA026
-100,100	100	100	1	#0DA026
-100.5,100.5,Sedeius.	100.5	100.5	Sedeius.	#8652DB
-100.5,100.5,Voluptatemquiquia.	100.5	100.5	Voluptatemquiquia.	#0DA026
-100.5,100.5,Etinciduntametipsum.	100.5	100.5	Etinciduntametipsum.	#F4DDAD
-100.5,100.5,Doloreiussit.	100.5	100.5	Doloreiussit.	#AE66E6
-100.5,100.5,Aliquammagnamneque.	100.5	100.5	Aliquammagnamneque.	#4928D1
-100.5,100.5,Modiadipiscivoluptatem.	100.5	100.5	Modiadipiscivoluptatem.	#54A9D1
-100.5,100.5,Adipiscimodi.	100.5	100.5	Adipiscimodi.	#1B73C1
-100.5,100.5,Quisquammodiadipisci.	100.5	100.5	Quisquammodiadipisci.	#973ECA
-100.5,100.5,Nondolorem.	100.5	100.5	Nondolorem.	#0A7AF3
-100.5,100.5,Doloremsitaliquam.	100.5	100.5	Doloremsitaliquam.	#04BF09
-100.5,100.5,Etinciduntdolor.	100.5	100.5	Etinciduntdolor.	#BD1F9C
-100.5,100.5,Consecteturest.	100.5	100.5	Consecteturest.	#4D9A35
-100.5,100.5,Ametnumquamneque.	100.5	100.5	Ametnumquamneque.	#F1295E
-100.5,100.5,Etinciduntquisquam.	100.5	100.5	Etinciduntquisquam.	#EFC3F3
-100.5,100.5,Eiusdolorem.	100.5	100.5	Eiusdolorem.	#2F4952
-100.5,100.5,Numquamdolore.	100.5	100.5	Numquamdolore.	#F01DF7
-100.5,100.5,Ametaliquamvoluptatem.	100.5	100.5	Ametaliquamvoluptatem.	#848E91
-100.5,100.5,Adipisciipsumadipisci.	100.5	100.5	Adipisciipsumadipisci.	#0A100A
-100.5,100.5,Moditempora.	100.5	100.5	Moditempora.	#4F36E9
-100.5,100.5,Porroaliquamdolor.	100.5	100.5	Porroaliquamdolor.	#0D3016
-batch: Sedeius., npoints: 33	23.4	235.5	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-27.1	210.8	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-104.5	253.6	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-36.5	235.5	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-30.3	252.4	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-82.2	237.2	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-15.4	241.7	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-34.3	230.5	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	6.3	225.1	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-9.1	277.6	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-47.1	259.9	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-67.6	251.4	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-32.0	247.6	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	19.5	260.9	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-38.7	227.0	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-55.6	232.2	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-77.0	248.8	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	3.1	258.5	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-34.4	238.2	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-19.7	233.5	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-49.1	251.8	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-80.3	216.7	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-82.9	235.6	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-5.4	242.3	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-24.3	238.6	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-16.5	249.5	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	13.8	240.6	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-9.8	257.1	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-30.5	221.8	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-96.0	231.9	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-35.6	261.6	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-35.2	239.5	Sedeius.	#8652DB
-batch: Sedeius., npoints: 33	-77.4	236.6	Sedeius.	#8652DB
-batch: Voluptatemquiquia., npoints: 26	-100.4	-353.0	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-146.9	-413.1	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-86.6	-398.2	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-136.7	-412.9	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-113.3	-380.5	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-115.6	-393.0	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-143.7	-376.3	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-98.2	-376.5	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-86.8	-367.3	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-96.5	-407.6	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-115.5	-349.1	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-162.5	-390.0	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-87.5	-402.1	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-85.5	-362.5	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-132.2	-378.4	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-114.0	-372.0	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-126.1	-379.8	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-108.6	-343.3	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-127.2	-334.8	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-138.8	-341.3	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-97.2	-433.6	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-76.3	-399.6	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-116.1	-406.1	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-115.8	-372.7	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-106.9	-366.2	Voluptatemquiquia.	#0DA026
-batch: Voluptatemquiquia., npoints: 26	-121.3	-397.9	Voluptatemquiquia.	#0DA026
-batch: Etinciduntametipsum., npoints: 22	116.1	-426.4	Etinciduntametipsum.	#F4DDAD
-batch: Etinciduntametipsum., npoints: 22	128.1	-438.9	Etinciduntametipsum.	#F4DDAD
-batch: Etinciduntametipsum., npoints: 22	91.3	-472.7	Etinciduntametipsum.	#F4DDAD
-batch: Etinciduntametipsum., npoints: 22	121.8	-453.9	Etinciduntametipsum.	#F4DDAD
-batch: Etinciduntametipsum., npoints: 22	144.1	-422.0	Etinciduntametipsum.	#F4DDAD
-batch: Etinciduntametipsum., npoints: 22	102.2	-369.7	Etinciduntametipsum.	#F4DDAD
-batch: Etinciduntametipsum., npoints: 22	95.2	-330.4	Etinciduntametipsum.	#F4DDAD
-batch: Etinciduntametipsum., npoints: 22	92.3	-383.4	Etinciduntametipsum.	#F4DDAD
-batch: Etinciduntametipsum., npoints: 22	74.6	-451.0	Etinciduntametipsum.	#F4DDAD
-batch: Etinciduntametipsum., npoints: 22	116.6	-463.6	Etinciduntametipsum.	#F4DDAD
-batch: Etinciduntametipsum., npoints: 22	128.3	-363.5	Etinciduntametipsum.	#F4DDAD
-batch: Etinciduntametipsum., npoints: 22	126.1	-348.5	Etinciduntametipsum.	#F4DDAD
-batch: Etinciduntametipsum., npoints: 22	131.5	-399.0	Etinciduntametipsum.	#F4DDAD
-batch: Etinciduntametipsum., npoints: 22	131.1	-381.9	Etinciduntametipsum.	#F4DDAD
-batch: Etinciduntametipsum., npoints: 22	110.7	-396.0	Etinciduntametipsum.	#F4DDAD
-batch: Etinciduntametipsum., npoints: 22	126.6	-379.1	Etinciduntametipsum.	#F4DDAD
-batch: Etinciduntametipsum., npoints: 22	134.4	-361.9	Etinciduntametipsum.	#F4DDAD
-batch: Etinciduntametipsum., npoints: 22	80.7	-344.9	Etinciduntametipsum.	#F4DDAD
-batch: Etinciduntametipsum., npoints: 22	80.1	-404.1	Etinciduntametipsum.	#F4DDAD
-batch: Etinciduntametipsum., npoints: 22	94.4	-473.1	Etinciduntametipsum.	#F4DDAD
-batch: Etinciduntametipsum., npoints: 22	122.2	-427.8	Etinciduntametipsum.	#F4DDAD
-batch: Etinciduntametipsum., npoints: 22	125.3	-416.7	Etinciduntametipsum.	#F4DDAD
-batch: Doloreiussit., npoints: 37	-164.7	0.6	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-160.6	11.4	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-184.6	18.6	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-147.5	-0.8	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-142.5	-13.8	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-162.0	-34.0	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-113.9	-9.7	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-127.1	-18.8	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-175.0	-0.0	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-147.1	-11.8	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-172.7	-18.7	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-150.9	-14.7	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-130.7	-5.7	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-167.5	-5.4	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-154.8	-30.2	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-156.5	-11.1	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-125.6	12.9	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-149.7	28.7	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-132.7	13.4	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-141.4	7.3	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-170.8	-14.3	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-163.3	-29.2	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-155.0	2.4	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-165.2	-1.0	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-150.3	0.9	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-112.5	-33.2	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-143.0	-6.2	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-185.2	7.7	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-186.8	-20.5	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-122.7	-15.8	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-140.7	3.4	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-153.1	9.2	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-152.8	-16.2	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-136.1	3.4	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-98.4	-14.1	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-104.6	-10.3	Doloreiussit.	#AE66E6
-batch: Doloreiussit., npoints: 37	-117.9	-28.7	Doloreiussit.	#AE66E6
-batch: Aliquammagnamneque., npoints: 39	-315.0	37.3	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-269.4	58.8	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-282.4	8.1	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-307.4	74.8	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-312.7	146.0	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-281.3	54.7	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-339.6	-92.7	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-336.6	60.6	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-303.1	89.8	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-309.5	46.9	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-308.2	59.8	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-269.0	14.9	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-324.8	40.5	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-297.8	96.5	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-269.2	120.3	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-283.0	27.9	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-304.9	95.4	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-298.5	36.7	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-305.7	76.8	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-289.3	-8.9	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-287.4	58.3	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-308.6	56.1	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-323.9	63.3	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-310.9	62.6	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-280.4	27.4	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-267.2	50.3	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-270.3	61.3	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-308.2	72.4	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-310.3	36.8	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-285.9	102.0	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-285.9	85.6	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-302.4	31.5	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-283.9	69.9	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-288.2	104.2	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-264.2	31.6	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-297.9	112.9	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-291.2	112.0	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-272.1	28.4	Aliquammagnamneque.	#4928D1
-batch: Aliquammagnamneque., npoints: 39	-215.3	95.1	Aliquammagnamneque.	#4928D1
-batch: Modiadipiscivoluptatem., npoints: 41	-341.5	-365.1	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-280.9	-393.2	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-307.1	-358.7	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-322.4	-358.0	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-319.7	-374.2	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-318.8	-360.9	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-298.4	-357.1	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-334.5	-365.1	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-317.9	-335.0	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-386.2	-367.6	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-327.0	-354.1	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-288.0	-373.5	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-337.0	-328.0	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-324.8	-378.2	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-334.2	-341.9	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-371.1	-361.4	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-325.3	-325.2	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-323.8	-386.3	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-309.2	-348.4	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-318.1	-360.3	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-310.2	-394.4	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-298.6	-372.3	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-326.3	-341.3	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-297.8	-368.8	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-351.0	-365.8	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-347.6	-381.8	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-348.1	-381.2	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-298.7	-375.3	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-316.8	-386.1	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-299.1	-322.0	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-367.8	-360.7	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-369.5	-387.8	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-345.7	-373.5	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-330.8	-331.9	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-354.3	-355.2	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-307.7	-339.6	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-322.8	-364.5	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-312.2	-363.1	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-397.0	-357.9	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-305.4	-372.3	Modiadipiscivoluptatem.	#54A9D1
-batch: Modiadipiscivoluptatem., npoints: 41	-390.6	-416.1	Modiadipiscivoluptatem.	#54A9D1
-batch: Adipiscimodi., npoints: 47	161.8	85.3	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	120.4	96.8	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	159.7	110.0	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	171.3	97.2	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	150.8	83.8	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	160.2	99.4	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	129.1	107.9	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	122.3	96.1	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	140.8	119.1	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	136.1	116.6	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	158.4	99.3	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	154.9	91.6	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	136.6	83.6	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	145.5	84.0	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	148.6	100.1	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	188.9	105.9	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	133.9	94.3	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	154.0	102.1	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	173.0	96.4	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	136.0	85.0	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	152.7	93.0	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	109.0	110.7	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	156.1	99.5	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	143.3	102.6	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	175.1	108.2	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	131.4	87.3	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	126.3	96.5	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	182.3	95.3	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	147.9	83.3	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	136.1	111.2	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	174.0	93.7	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	163.8	88.1	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	124.2	115.4	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	166.2	95.5	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	139.8	102.0	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	146.9	79.2	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	152.0	107.1	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	139.0	88.9	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	132.2	110.2	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	184.5	93.6	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	107.5	91.3	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	116.4	104.5	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	139.2	95.2	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	145.7	92.6	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	141.9	91.7	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	86.2	70.0	Adipiscimodi.	#1B73C1
-batch: Adipiscimodi., npoints: 47	181.4	101.0	Adipiscimodi.	#1B73C1
-batch: Quisquammodiadipisci., npoints: 44	343.3	418.1	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	355.5	389.1	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	398.0	398.4	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	396.3	354.0	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	345.4	373.4	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	416.6	435.6	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	381.4	429.2	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	406.3	403.3	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	323.9	402.0	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	390.8	390.4	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	337.8	390.1	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	382.0	455.6	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	381.0	361.3	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	385.4	374.5	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	391.8	393.8	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	390.4	368.4	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	378.1	306.6	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	389.1	344.9	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	347.2	414.8	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	387.7	310.9	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	363.9	333.7	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	389.5	405.4	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	367.8	368.6	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	342.0	407.0	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	383.3	327.3	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	375.1	352.2	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	350.9	392.7	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	395.2	377.4	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	397.3	405.6	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	366.4	421.6	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	346.9	346.9	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	388.1	438.6	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	370.2	364.1	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	383.5	372.7	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	375.8	402.9	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	355.2	374.1	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	370.9	443.8	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	363.1	413.1	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	380.9	372.7	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	369.3	351.5	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	381.2	372.4	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	363.8	350.2	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	386.2	455.4	Quisquammodiadipisci.	#973ECA
-batch: Quisquammodiadipisci., npoints: 44	374.9	426.2	Quisquammodiadipisci.	#973ECA
-batch: Nondolorem., npoints: 24	65.9	-48.7	Nondolorem.	#0A7AF3
-batch: Nondolorem., npoints: 24	17.5	-49.0	Nondolorem.	#0A7AF3
-batch: Nondolorem., npoints: 24	24.2	-50.0	Nondolorem.	#0A7AF3
-batch: Nondolorem., npoints: 24	0.8	-32.6	Nondolorem.	#0A7AF3
-batch: Nondolorem., npoints: 24	81.6	-83.5	Nondolorem.	#0A7AF3
-batch: Nondolorem., npoints: 24	36.2	-49.5	Nondolorem.	#0A7AF3
-batch: Nondolorem., npoints: 24	29.1	-48.6	Nondolorem.	#0A7AF3
-batch: Nondolorem., npoints: 24	68.0	-58.4	Nondolorem.	#0A7AF3
-batch: Nondolorem., npoints: 24	82.8	-13.0	Nondolorem.	#0A7AF3
-batch: Nondolorem., npoints: 24	108.0	-46.2	Nondolorem.	#0A7AF3
-batch: Nondolorem., npoints: 24	-10.0	-106.8	Nondolorem.	#0A7AF3
-batch: Nondolorem., npoints: 24	64.4	-42.8	Nondolorem.	#0A7AF3
-batch: Nondolorem., npoints: 24	54.6	-47.8	Nondolorem.	#0A7AF3
-batch: Nondolorem., npoints: 24	45.2	-72.8	Nondolorem.	#0A7AF3
-batch: Nondolorem., npoints: 24	30.7	-76.3	Nondolorem.	#0A7AF3
-batch: Nondolorem., npoints: 24	53.6	-47.2	Nondolorem.	#0A7AF3
-batch: Nondolorem., npoints: 24	23.3	-43.9	Nondolorem.	#0A7AF3
-batch: Nondolorem., npoints: 24	27.0	-44.1	Nondolorem.	#0A7AF3
-batch: Nondolorem., npoints: 24	41.6	-6.3	Nondolorem.	#0A7AF3
-batch: Nondolorem., npoints: 24	69.0	-56.7	Nondolorem.	#0A7AF3
-batch: Nondolorem., npoints: 24	89.4	-52.3	Nondolorem.	#0A7AF3
-batch: Nondolorem., npoints: 24	47.4	-5.9	Nondolorem.	#0A7AF3
-batch: Nondolorem., npoints: 24	154.3	-18.7	Nondolorem.	#0A7AF3
-batch: Nondolorem., npoints: 24	53.9	-38.3	Nondolorem.	#0A7AF3
-batch: Doloremsitaliquam., npoints: 38	-454.0	-376.4	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-454.1	-332.2	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-453.6	-349.9	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-476.1	-346.9	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-462.7	-406.9	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-496.1	-394.6	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-469.1	-344.6	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-444.9	-386.5	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-459.9	-328.7	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-436.2	-383.4	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-455.4	-354.6	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-450.4	-363.3	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-418.0	-365.6	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-486.0	-360.1	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-486.4	-345.5	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-450.0	-380.4	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-433.4	-374.4	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-449.5	-379.8	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-418.3	-344.9	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-460.1	-366.6	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-483.8	-342.6	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-454.9	-360.1	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-456.5	-348.4	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-455.1	-387.8	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-429.0	-364.3	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-442.2	-312.4	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-475.8	-333.5	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-481.2	-377.4	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-462.2	-409.1	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-453.9	-346.9	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-412.2	-412.5	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-441.6	-352.3	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-460.1	-339.2	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-462.3	-296.1	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-454.5	-362.2	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-448.0	-342.9	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-423.9	-390.5	Doloremsitaliquam.	#04BF09
-batch: Doloremsitaliquam., npoints: 38	-449.7	-330.7	Doloremsitaliquam.	#04BF09
-batch: Etinciduntdolor., npoints: 23	-236.3	-15.5	Etinciduntdolor.	#BD1F9C
-batch: Etinciduntdolor., npoints: 23	-260.4	13.2	Etinciduntdolor.	#BD1F9C
-batch: Etinciduntdolor., npoints: 23	-283.4	-1.5	Etinciduntdolor.	#BD1F9C
-batch: Etinciduntdolor., npoints: 23	-264.4	-82.9	Etinciduntdolor.	#BD1F9C
-batch: Etinciduntdolor., npoints: 23	-309.5	32.1	Etinciduntdolor.	#BD1F9C
-batch: Etinciduntdolor., npoints: 23	-279.6	-24.1	Etinciduntdolor.	#BD1F9C
-batch: Etinciduntdolor., npoints: 23	-297.1	39.4	Etinciduntdolor.	#BD1F9C
-batch: Etinciduntdolor., npoints: 23	-294.5	-54.4	Etinciduntdolor.	#BD1F9C
-batch: Etinciduntdolor., npoints: 23	-337.5	-25.9	Etinciduntdolor.	#BD1F9C
-batch: Etinciduntdolor., npoints: 23	-309.1	-9.8	Etinciduntdolor.	#BD1F9C
-batch: Etinciduntdolor., npoints: 23	-245.2	-28.9	Etinciduntdolor.	#BD1F9C
-batch: Etinciduntdolor., npoints: 23	-343.4	-42.9	Etinciduntdolor.	#BD1F9C
-batch: Etinciduntdolor., npoints: 23	-309.6	-15.7	Etinciduntdolor.	#BD1F9C
-batch: Etinciduntdolor., npoints: 23	-279.3	-27.3	Etinciduntdolor.	#BD1F9C
-batch: Etinciduntdolor., npoints: 23	-294.7	-55.9	Etinciduntdolor.	#BD1F9C
-batch: Etinciduntdolor., npoints: 23	-313.4	-20.0	Etinciduntdolor.	#BD1F9C
-batch: Etinciduntdolor., npoints: 23	-252.4	-40.7	Etinciduntdolor.	#BD1F9C
-batch: Etinciduntdolor., npoints: 23	-286.3	-11.2	Etinciduntdolor.	#BD1F9C
-batch: Etinciduntdolor., npoints: 23	-267.0	-60.0	Etinciduntdolor.	#BD1F9C
-batch: Etinciduntdolor., npoints: 23	-269.8	-33.9	Etinciduntdolor.	#BD1F9C
-batch: Etinciduntdolor., npoints: 23	-278.4	-26.7	Etinciduntdolor.	#BD1F9C
-batch: Etinciduntdolor., npoints: 23	-295.9	10.4	Etinciduntdolor.	#BD1F9C
-batch: Etinciduntdolor., npoints: 23	-270.7	-9.6	Etinciduntdolor.	#BD1F9C
-batch: Consecteturest., npoints: 29	148.8	-371.5	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	163.5	-373.2	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	154.4	-385.1	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	155.9	-389.4	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	179.6	-405.0	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	112.9	-379.6	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	177.7	-379.9	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	119.3	-375.6	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	154.2	-367.0	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	173.4	-396.6	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	154.7	-371.1	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	137.7	-374.4	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	100.5	-376.7	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	110.5	-360.6	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	156.8	-362.0	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	148.7	-361.7	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	154.1	-398.0	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	157.0	-380.0	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	135.0	-391.8	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	111.3	-397.9	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	153.1	-386.5	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	98.4	-365.0	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	145.8	-361.5	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	155.6	-379.0	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	133.3	-381.2	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	127.2	-400.0	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	103.1	-379.0	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	149.0	-395.5	Consecteturest.	#4D9A35
-batch: Consecteturest., npoints: 29	111.6	-393.2	Consecteturest.	#4D9A35
-batch: Ametnumquamneque., npoints: 21	-512.4	-341.4	Ametnumquamneque.	#F1295E
-batch: Ametnumquamneque., npoints: 21	-430.8	-371.6	Ametnumquamneque.	#F1295E
-batch: Ametnumquamneque., npoints: 21	-422.2	-344.7	Ametnumquamneque.	#F1295E
-batch: Ametnumquamneque., npoints: 21	-444.7	-418.0	Ametnumquamneque.	#F1295E
-batch: Ametnumquamneque., npoints: 21	-462.4	-362.4	Ametnumquamneque.	#F1295E
-batch: Ametnumquamneque., npoints: 21	-468.2	-426.0	Ametnumquamneque.	#F1295E
-batch: Ametnumquamneque., npoints: 21	-441.6	-388.1	Ametnumquamneque.	#F1295E
-batch: Ametnumquamneque., npoints: 21	-430.9	-379.9	Ametnumquamneque.	#F1295E
-batch: Ametnumquamneque., npoints: 21	-438.2	-424.9	Ametnumquamneque.	#F1295E
-batch: Ametnumquamneque., npoints: 21	-475.1	-429.4	Ametnumquamneque.	#F1295E
-batch: Ametnumquamneque., npoints: 21	-477.5	-344.8	Ametnumquamneque.	#F1295E
-batch: Ametnumquamneque., npoints: 21	-466.4	-338.8	Ametnumquamneque.	#F1295E
-batch: Ametnumquamneque., npoints: 21	-434.7	-369.3	Ametnumquamneque.	#F1295E
-batch: Ametnumquamneque., npoints: 21	-467.0	-395.9	Ametnumquamneque.	#F1295E
-batch: Ametnumquamneque., npoints: 21	-433.1	-370.7	Ametnumquamneque.	#F1295E
-batch: Ametnumquamneque., npoints: 21	-467.4	-365.2	Ametnumquamneque.	#F1295E
-batch: Ametnumquamneque., npoints: 21	-424.2	-334.8	Ametnumquamneque.	#F1295E
-batch: Ametnumquamneque., npoints: 21	-456.7	-469.3	Ametnumquamneque.	#F1295E
-batch: Ametnumquamneque., npoints: 21	-449.5	-387.8	Ametnumquamneque.	#F1295E
-batch: Ametnumquamneque., npoints: 21	-458.6	-399.4	Ametnumquamneque.	#F1295E
-batch: Ametnumquamneque., npoints: 21	-446.2	-388.2	Ametnumquamneque.	#F1295E
-batch: Etinciduntquisquam., npoints: 38	270.4	-335.5	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	314.8	-296.0	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	236.6	-317.5	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	304.3	-321.3	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	336.0	-304.7	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	256.4	-320.3	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	313.4	-308.0	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	281.4	-334.9	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	294.1	-358.9	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	276.2	-320.2	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	287.1	-358.5	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	337.5	-338.2	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	278.6	-332.2	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	298.0	-288.4	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	254.9	-305.3	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	258.6	-328.4	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	279.2	-294.5	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	231.1	-231.9	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	270.7	-334.9	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	217.6	-370.3	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	235.2	-294.8	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	268.0	-263.1	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	271.3	-361.2	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	308.5	-342.4	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	278.3	-277.1	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	279.3	-364.0	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	286.9	-314.2	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	265.3	-371.7	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	283.8	-288.5	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	308.3	-292.6	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	316.5	-334.4	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	286.7	-309.3	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	243.9	-357.6	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	302.7	-293.5	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	253.1	-365.5	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	250.3	-397.7	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	289.8	-270.7	Etinciduntquisquam.	#EFC3F3
-batch: Etinciduntquisquam., npoints: 38	261.2	-334.4	Etinciduntquisquam.	#EFC3F3
-batch: Eiusdolorem., npoints: 30	-97.8	-455.8	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-109.5	-428.1	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-93.0	-514.0	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-91.8	-411.2	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-89.1	-474.3	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-75.6	-393.2	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-102.8	-467.2	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-71.6	-370.2	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-74.0	-379.7	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-84.3	-441.4	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-88.7	-429.4	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-62.4	-499.8	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-119.1	-474.9	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-59.5	-453.1	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-109.5	-467.5	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-96.9	-471.7	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-61.8	-449.1	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-95.2	-480.5	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-85.4	-450.3	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-81.8	-517.5	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-79.2	-499.7	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-82.2	-460.4	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-116.4	-451.5	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-121.6	-453.3	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-106.2	-446.6	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-106.9	-469.2	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-104.7	-440.9	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-74.6	-407.0	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-100.9	-447.3	Eiusdolorem.	#2F4952
-batch: Eiusdolorem., npoints: 30	-112.7	-456.7	Eiusdolorem.	#2F4952
-batch: Numquamdolore., npoints: 28	382.2	-384.7	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	427.5	-363.5	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	409.6	-380.0	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	374.1	-357.3	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	427.5	-380.5	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	419.4	-351.2	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	376.9	-343.6	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	405.1	-360.9	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	443.5	-400.5	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	423.6	-380.3	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	376.1	-341.4	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	363.6	-384.6	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	415.1	-362.9	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	414.6	-397.0	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	381.5	-405.9	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	404.9	-385.5	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	371.6	-378.2	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	412.2	-382.4	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	394.3	-404.1	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	439.6	-369.3	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	414.9	-379.2	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	389.5	-357.5	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	356.8	-434.4	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	419.6	-369.0	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	367.2	-370.8	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	385.5	-352.4	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	432.7	-388.2	Numquamdolore.	#F01DF7
-batch: Numquamdolore., npoints: 28	396.0	-380.9	Numquamdolore.	#F01DF7
-batch: Ametaliquamvoluptatem., npoints: 33	307.9	486.6	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	349.2	508.2	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	325.6	483.6	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	281.1	493.0	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	299.2	483.0	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	342.1	485.5	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	381.1	475.0	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	330.3	479.6	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	345.5	467.6	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	316.2	493.4	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	314.7	466.5	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	344.6	496.0	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	361.7	492.6	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	350.2	491.5	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	320.2	470.9	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	279.3	479.6	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	383.3	505.4	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	398.0	482.3	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	332.3	500.2	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	297.0	479.3	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	299.7	474.8	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	353.6	497.2	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	331.9	487.7	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	346.8	494.7	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	335.2	484.6	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	367.0	479.2	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	360.8	498.1	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	335.5	499.2	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	299.9	489.0	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	317.6	472.0	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	330.6	497.5	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	338.0	466.5	Ametaliquamvoluptatem.	#848E91
-batch: Ametaliquamvoluptatem., npoints: 33	316.8	473.7	Ametaliquamvoluptatem.	#848E91
-batch: Adipisciipsumadipisci., npoints: 30	179.2	-18.1	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	166.2	15.6	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	169.9	-54.7	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	136.6	-46.3	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	197.1	-62.4	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	167.9	44.2	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	170.3	-42.5	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	168.3	-42.9	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	161.3	-76.0	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	145.0	-93.1	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	133.2	0.7	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	159.6	4.1	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	171.8	4.4	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	132.9	-76.3	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	194.3	-1.1	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	136.0	-55.5	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	129.6	-50.3	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	140.1	-68.9	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	128.0	-85.8	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	159.6	2.1	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	87.4	-39.2	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	149.7	0.4	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	102.5	-11.3	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	188.5	-58.5	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	157.5	-56.5	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	175.3	41.1	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	170.3	-20.0	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	129.0	-46.8	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	179.3	-10.6	Adipisciipsumadipisci.	#0A100A
-batch: Adipisciipsumadipisci., npoints: 30	140.9	-31.7	Adipisciipsumadipisci.	#0A100A
-batch: Moditempora., npoints: 25	323.4	153.3	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	339.4	199.2	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	333.7	107.5	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	299.7	191.4	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	320.2	212.3	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	293.3	146.3	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	282.8	133.5	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	290.2	193.8	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	295.6	151.3	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	311.6	143.6	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	346.1	164.3	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	299.0	151.3	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	295.0	112.4	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	291.8	155.0	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	308.2	171.5	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	325.8	161.6	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	331.7	140.5	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	322.1	121.5	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	335.8	192.1	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	342.5	193.5	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	293.7	94.0	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	305.5	124.2	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	286.1	162.0	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	299.9	138.0	Moditempora.	#4F36E9
-batch: Moditempora., npoints: 25	341.0	201.4	Moditempora.	#4F36E9
-batch: Porroaliquamdolor., npoints: 23	-165.0	234.4	Porroaliquamdolor.	#0D3016
-batch: Porroaliquamdolor., npoints: 23	-170.5	247.4	Porroaliquamdolor.	#0D3016
-batch: Porroaliquamdolor., npoints: 23	-136.3	209.9	Porroaliquamdolor.	#0D3016
-batch: Porroaliquamdolor., npoints: 23	-145.4	194.3	Porroaliquamdolor.	#0D3016
-batch: Porroaliquamdolor., npoints: 23	-112.2	208.7	Porroaliquamdolor.	#0D3016
-batch: Porroaliquamdolor., npoints: 23	-154.7	209.8	Porroaliquamdolor.	#0D3016
-batch: Porroaliquamdolor., npoints: 23	-171.1	282.6	Porroaliquamdolor.	#0D3016
-batch: Porroaliquamdolor., npoints: 23	-162.5	216.0	Porroaliquamdolor.	#0D3016
-batch: Porroaliquamdolor., npoints: 23	-200.8	198.6	Porroaliquamdolor.	#0D3016
-batch: Porroaliquamdolor., npoints: 23	-229.2	237.8	Porroaliquamdolor.	#0D3016
-batch: Porroaliquamdolor., npoints: 23	-160.4	169.0	Porroaliquamdolor.	#0D3016
-batch: Porroaliquamdolor., npoints: 23	-142.2	168.5	Porroaliquamdolor.	#0D3016
-batch: Porroaliquamdolor., npoints: 23	-140.9	195.4	Porroaliquamdolor.	#0D3016
-batch: Porroaliquamdolor., npoints: 23	-130.2	172.0	Porroaliquamdolor.	#0D3016
-batch: Porroaliquamdolor., npoints: 23	-180.9	205.1	Porroaliquamdolor.	#0D3016
-batch: Porroaliquamdolor., npoints: 23	-186.5	167.3	Porroaliquamdolor.	#0D3016
-batch: Porroaliquamdolor., npoints: 23	-173.3	256.2	Porroaliquamdolor.	#0D3016
-batch: Porroaliquamdolor., npoints: 23	-179.2	211.4	Porroaliquamdolor.	#0D3016
-batch: Porroaliquamdolor., npoints: 23	-133.3	195.7	Porroaliquamdolor.	#0D3016
-batch: Porroaliquamdolor., npoints: 23	-170.2	95.3	Porroaliquamdolor.	#0D3016
-batch: Porroaliquamdolor., npoints: 23	-147.7	172.7	Porroaliquamdolor.	#0D3016
-batch: Porroaliquamdolor., npoints: 23	-130.5	184.2	Porroaliquamdolor.	#0D3016
-batch: Porroaliquamdolor., npoints: 23	-130.2	259.3	Porroaliquamdolor.	#0D3016
+0,0	0	0	1	#625F95
+100,100	100	100	1	#625F95
+100.5,100.5,Laboresit.	100.5	100.5	Laboresit.	#2D063A
+100.5,100.5,Laboresit.	100.5	100.5	Laboresit.	#2D063A
+100.5,100.5,Quaeratetincidunt.	100.5	100.5	Quaeratetincidunt.	#625F95
+100.5,100.5,Eiuslaboremagnam.	100.5	100.5	Eiuslaboremagnam.	#029946
+100.5,100.5,Quiquiavelitdolor.	100.5	100.5	Quiquiavelitdolor.	#3EBE50
+100.5,100.5,Consectetureius.	100.5	100.5	Consectetureius.	#35A48E
+100.5,100.5,Adipisciquisquam.	100.5	100.5	Adipisciquisquam.	#DF87C2
+100.5,100.5,Aliquamaliquamtempora.	100.5	100.5	Aliquamaliquamtempora.	#FA8C78
+100.5,100.5,Consecteturamet.	100.5	100.5	Consecteturamet.	#2458CA
+100.5,100.5,Sedut.	100.5	100.5	Sedut.	#5F1058
+100.5,100.5,Laborenumquamut.	100.5	100.5	Laborenumquamut.	#F6D8CA
+100.5,100.5,Laborenon.	100.5	100.5	Laborenon.	#769CFD
+100.5,100.5,Quaeratipsumconsectetur.	100.5	100.5	Quaeratipsumconsectetur.	#12816C
+100.5,100.5,Etincidunteius.	100.5	100.5	Etincidunteius.	#CD9176
+100.5,100.5,Porrodolorlabore.	100.5	100.5	Porrodolorlabore.	#E070A5
+100.5,100.5,Numquamamet.	100.5	100.5	Numquamamet.	#5D15A7
+100.5,100.5,Porromagnamdolor.	100.5	100.5	Porromagnamdolor.	#82FA21
+100.5,100.5,Laboreporro.	100.5	100.5	Laboreporro.	#44FAC9
+100.5,100.5,Aliquamadipiscietincidunt.	100.5	100.5	Aliquamadipiscietincidunt.	#96A056
+100.5,100.5,Quaeratadipiscilabore.	100.5	100.5	Quaeratadipiscilabore.	#23061F
+100.5,100.5,Temporamodi.	100.5	100.5	Temporamodi.	#1F495B
+-504.1, 161.2, 0	-504.1	161.2	Laboresit.	#2D063A
+-491.3, 187.4, 0	-491.3	187.4	Laboresit.	#2D063A
+-474.1, 169.1, 0	-474.1	169.1	Laboresit.	#2D063A
+-480.6, 208.6, 0	-480.6	208.6	Laboresit.	#2D063A
+-481.0, 213.9, 0	-481.0	213.9	Laboresit.	#2D063A
+-446.7, 205.0, 0	-446.7	205.0	Laboresit.	#2D063A
+-552.7, 182.8, 0	-552.7	182.8	Laboresit.	#2D063A
+-513.5, 255.5, 0	-513.5	255.5	Laboresit.	#2D063A
+-472.3, 176.9, 0	-472.3	176.9	Laboresit.	#2D063A
+-508.7, 137.6, 0	-508.7	137.6	Laboresit.	#2D063A
+-484.4, 161.2, 0	-484.4	161.2	Laboresit.	#2D063A
+-544.8, 242.3, 0	-544.8	242.3	Laboresit.	#2D063A
+-431.8, 178.3, 0	-431.8	178.3	Laboresit.	#2D063A
+-507.1, 207.2, 0	-507.1	207.2	Laboresit.	#2D063A
+-492.4, 209.7, 0	-492.4	209.7	Laboresit.	#2D063A
+-505.2, 226.3, 0	-505.2	226.3	Laboresit.	#2D063A
+-473.4, 223.0, 0	-473.4	223.0	Laboresit.	#2D063A
+-497.6, 200.3, 0	-497.6	200.3	Laboresit.	#2D063A
+-520.6, 226.8, 0	-520.6	226.8	Laboresit.	#2D063A
+-477.6, 150.2, 0	-477.6	150.2	Laboresit.	#2D063A
+-495.0, 185.1, 0	-495.0	185.1	Laboresit.	#2D063A
+-569.1, 264.0, 0	-569.1	264.0	Laboresit.	#2D063A
+-449.5, 221.4, 0	-449.5	221.4	Laboresit.	#2D063A
+-490.1, 213.8, 0	-490.1	213.8	Laboresit.	#2D063A
+-498.9, 175.5, 0	-498.9	175.5	Laboresit.	#2D063A
+-467.7, 200.7, 0	-467.7	200.7	Laboresit.	#2D063A
+-499.4, 201.0, 0	-499.4	201.0	Laboresit.	#2D063A
+-524.0, 173.4, 0	-524.0	173.4	Laboresit.	#2D063A
+-505.7, 173.3, 0	-505.7	173.3	Laboresit.	#2D063A
+-454.7, 199.7, 0	-454.7	199.7	Laboresit.	#2D063A
+-489.1, 252.9, 0	-489.1	252.9	Laboresit.	#2D063A
+-502.8, 203.4, 0	-502.8	203.4	Laboresit.	#2D063A
+-463.4, 275.2, 0	-463.4	275.2	Laboresit.	#2D063A
+-515.4, 192.8, 0	-515.4	192.8	Laboresit.	#2D063A
+-430.0, 170.4, 0	-430.0	170.4	Laboresit.	#2D063A
+-464.6, 214.1, 0	-464.6	214.1	Laboresit.	#2D063A
+-458.6, 230.7, 0	-458.6	230.7	Laboresit.	#2D063A
+-519.5, 243.3, 0	-519.5	243.3	Laboresit.	#2D063A
+-478.3, 232.0, 0	-478.3	232.0	Laboresit.	#2D063A
+-501.1, 231.0, 0	-501.1	231.0	Laboresit.	#2D063A
+135.0, -429.2, 1	135.0	-429.2	Quaeratetincidunt.	#625F95
+66.6, -414.7, 1	66.6	-414.7	Quaeratetincidunt.	#625F95
+83.2, -402.7, 1	83.2	-402.7	Quaeratetincidunt.	#625F95
+126.1, -412.6, 1	126.1	-412.6	Quaeratetincidunt.	#625F95
+119.6, -422.1, 1	119.6	-422.1	Quaeratetincidunt.	#625F95
+104.2, -397.3, 1	104.2	-397.3	Quaeratetincidunt.	#625F95
+70.7, -426.7, 1	70.7	-426.7	Quaeratetincidunt.	#625F95
+129.1, -422.4, 1	129.1	-422.4	Quaeratetincidunt.	#625F95
+86.2, -408.5, 1	86.2	-408.5	Quaeratetincidunt.	#625F95
+98.1, -421.5, 1	98.1	-421.5	Quaeratetincidunt.	#625F95
+108.9, -409.6, 1	108.9	-409.6	Quaeratetincidunt.	#625F95
+67.2, -467.3, 1	67.2	-467.3	Quaeratetincidunt.	#625F95
+25.8, -424.7, 1	25.8	-424.7	Quaeratetincidunt.	#625F95
+94.8, -411.8, 1	94.8	-411.8	Quaeratetincidunt.	#625F95
+98.5, -386.5, 1	98.5	-386.5	Quaeratetincidunt.	#625F95
+35.8, -417.1, 1	35.8	-417.1	Quaeratetincidunt.	#625F95
+118.1, -380.3, 1	118.1	-380.3	Quaeratetincidunt.	#625F95
+59.5, -413.3, 1	59.5	-413.3	Quaeratetincidunt.	#625F95
+95.8, -396.8, 1	95.8	-396.8	Quaeratetincidunt.	#625F95
+88.7, -391.6, 1	88.7	-391.6	Quaeratetincidunt.	#625F95
+61.5, -422.3, 1	61.5	-422.3	Quaeratetincidunt.	#625F95
+63.5, -439.6, 1	63.5	-439.6	Quaeratetincidunt.	#625F95
+72.4, -430.7, 1	72.4	-430.7	Quaeratetincidunt.	#625F95
+72.8, -447.0, 1	72.8	-447.0	Quaeratetincidunt.	#625F95
+106.8, -383.8, 1	106.8	-383.8	Quaeratetincidunt.	#625F95
+82.1, -471.5, 1	82.1	-471.5	Quaeratetincidunt.	#625F95
+90.7, -378.7, 1	90.7	-378.7	Quaeratetincidunt.	#625F95
+114.3, -418.1, 1	114.3	-418.1	Quaeratetincidunt.	#625F95
+99.3, -401.2, 1	99.3	-401.2	Quaeratetincidunt.	#625F95
+70.6, -452.6, 1	70.6	-452.6	Quaeratetincidunt.	#625F95
+58.8, -438.9, 1	58.8	-438.9	Quaeratetincidunt.	#625F95
+94.8, -413.9, 1	94.8	-413.9	Quaeratetincidunt.	#625F95
+100.0, -426.8, 1	100.0	-426.8	Quaeratetincidunt.	#625F95
+107.3, -426.4, 1	107.3	-426.4	Quaeratetincidunt.	#625F95
+137.7, -390.7, 1	137.7	-390.7	Quaeratetincidunt.	#625F95
+131.3, -384.8, 1	131.3	-384.8	Quaeratetincidunt.	#625F95
+52.9, -373.0, 1	52.9	-373.0	Quaeratetincidunt.	#625F95
+-90.6, -150.6, 2	-90.6	-150.6	Eiuslaboremagnam.	#029946
+-121.1, -182.6, 2	-121.1	-182.6	Eiuslaboremagnam.	#029946
+-76.0, -140.8, 2	-76.0	-140.8	Eiuslaboremagnam.	#029946
+-90.3, -124.8, 2	-90.3	-124.8	Eiuslaboremagnam.	#029946
+-103.8, -144.9, 2	-103.8	-144.9	Eiuslaboremagnam.	#029946
+-109.0, -149.0, 2	-109.0	-149.0	Eiuslaboremagnam.	#029946
+-82.7, -167.0, 2	-82.7	-167.0	Eiuslaboremagnam.	#029946
+-77.1, -127.9, 2	-77.1	-127.9	Eiuslaboremagnam.	#029946
+-107.1, -171.9, 2	-107.1	-171.9	Eiuslaboremagnam.	#029946
+-98.4, -177.5, 2	-98.4	-177.5	Eiuslaboremagnam.	#029946
+-87.2, -150.2, 2	-87.2	-150.2	Eiuslaboremagnam.	#029946
+-139.5, -155.4, 2	-139.5	-155.4	Eiuslaboremagnam.	#029946
+-130.1, -99.9, 2	-130.1	-99.9	Eiuslaboremagnam.	#029946
+-110.4, -155.3, 2	-110.4	-155.3	Eiuslaboremagnam.	#029946
+-118.9, -174.2, 2	-118.9	-174.2	Eiuslaboremagnam.	#029946
+-126.0, -132.8, 2	-126.0	-132.8	Eiuslaboremagnam.	#029946
+-148.1, -139.3, 2	-148.1	-139.3	Eiuslaboremagnam.	#029946
+-97.4, -116.2, 2	-97.4	-116.2	Eiuslaboremagnam.	#029946
+-96.3, -166.0, 2	-96.3	-166.0	Eiuslaboremagnam.	#029946
+-103.4, -184.4, 2	-103.4	-184.4	Eiuslaboremagnam.	#029946
+-92.5, -158.1, 2	-92.5	-158.1	Eiuslaboremagnam.	#029946
+-130.0, -164.1, 2	-130.0	-164.1	Eiuslaboremagnam.	#029946
+-120.2, -180.2, 2	-120.2	-180.2	Eiuslaboremagnam.	#029946
+-109.9, -161.8, 2	-109.9	-161.8	Eiuslaboremagnam.	#029946
+248.3, -404.7, 3	248.3	-404.7	Quiquiavelitdolor.	#3EBE50
+268.3, -414.1, 3	268.3	-414.1	Quiquiavelitdolor.	#3EBE50
+313.1, -404.5, 3	313.1	-404.5	Quiquiavelitdolor.	#3EBE50
+301.4, -389.8, 3	301.4	-389.8	Quiquiavelitdolor.	#3EBE50
+308.9, -375.2, 3	308.9	-375.2	Quiquiavelitdolor.	#3EBE50
+327.2, -344.8, 3	327.2	-344.8	Quiquiavelitdolor.	#3EBE50
+236.8, -365.9, 3	236.8	-365.9	Quiquiavelitdolor.	#3EBE50
+278.9, -389.2, 3	278.9	-389.2	Quiquiavelitdolor.	#3EBE50
+273.4, -403.6, 3	273.4	-403.6	Quiquiavelitdolor.	#3EBE50
+259.6, -406.4, 3	259.6	-406.4	Quiquiavelitdolor.	#3EBE50
+300.6, -374.8, 3	300.6	-374.8	Quiquiavelitdolor.	#3EBE50
+270.5, -361.4, 3	270.5	-361.4	Quiquiavelitdolor.	#3EBE50
+275.0, -378.5, 3	275.0	-378.5	Quiquiavelitdolor.	#3EBE50
+259.2, -446.1, 3	259.2	-446.1	Quiquiavelitdolor.	#3EBE50
+288.7, -434.8, 3	288.7	-434.8	Quiquiavelitdolor.	#3EBE50
+276.1, -414.0, 3	276.1	-414.0	Quiquiavelitdolor.	#3EBE50
+212.6, -378.6, 3	212.6	-378.6	Quiquiavelitdolor.	#3EBE50
+218.8, -408.8, 3	218.8	-408.8	Quiquiavelitdolor.	#3EBE50
+277.8, -407.2, 3	277.8	-407.2	Quiquiavelitdolor.	#3EBE50
+262.2, -379.4, 3	262.2	-379.4	Quiquiavelitdolor.	#3EBE50
+250.4, -404.1, 3	250.4	-404.1	Quiquiavelitdolor.	#3EBE50
+314.2, -401.3, 3	314.2	-401.3	Quiquiavelitdolor.	#3EBE50
+311.7, -378.6, 3	311.7	-378.6	Quiquiavelitdolor.	#3EBE50
+266.0, -380.7, 3	266.0	-380.7	Quiquiavelitdolor.	#3EBE50
+273.4, -379.8, 3	273.4	-379.8	Quiquiavelitdolor.	#3EBE50
+281.6, -390.8, 3	281.6	-390.8	Quiquiavelitdolor.	#3EBE50
+274.5, -381.2, 3	274.5	-381.2	Quiquiavelitdolor.	#3EBE50
+263.8, -341.3, 3	263.8	-341.3	Quiquiavelitdolor.	#3EBE50
+249.3, -335.7, 3	249.3	-335.7	Quiquiavelitdolor.	#3EBE50
+267.3, -358.9, 3	267.3	-358.9	Quiquiavelitdolor.	#3EBE50
+244.1, -399.8, 3	244.1	-399.8	Quiquiavelitdolor.	#3EBE50
+290.2, -409.1, 3	290.2	-409.1	Quiquiavelitdolor.	#3EBE50
+272.9, -390.9, 3	272.9	-390.9	Quiquiavelitdolor.	#3EBE50
+267.5, -399.1, 3	267.5	-399.1	Quiquiavelitdolor.	#3EBE50
+268.5, -372.3, 3	268.5	-372.3	Quiquiavelitdolor.	#3EBE50
+273.5, -408.1, 3	273.5	-408.1	Quiquiavelitdolor.	#3EBE50
+236.3, -374.1, 3	236.3	-374.1	Quiquiavelitdolor.	#3EBE50
+282.9, -401.1, 3	282.9	-401.1	Quiquiavelitdolor.	#3EBE50
+-440.4, -210.4, 4	-440.4	-210.4	Consectetureius.	#35A48E
+-450.1, -222.5, 4	-450.1	-222.5	Consectetureius.	#35A48E
+-454.4, -255.2, 4	-454.4	-255.2	Consectetureius.	#35A48E
+-434.6, -254.2, 4	-434.6	-254.2	Consectetureius.	#35A48E
+-441.4, -255.0, 4	-441.4	-255.0	Consectetureius.	#35A48E
+-420.8, -198.7, 4	-420.8	-198.7	Consectetureius.	#35A48E
+-417.2, -223.8, 4	-417.2	-223.8	Consectetureius.	#35A48E
+-416.6, -198.7, 4	-416.6	-198.7	Consectetureius.	#35A48E
+-455.8, -156.6, 4	-455.8	-156.6	Consectetureius.	#35A48E
+-435.4, -251.9, 4	-435.4	-251.9	Consectetureius.	#35A48E
+-393.1, -251.2, 4	-393.1	-251.2	Consectetureius.	#35A48E
+-434.0, -237.9, 4	-434.0	-237.9	Consectetureius.	#35A48E
+-448.9, -206.6, 4	-448.9	-206.6	Consectetureius.	#35A48E
+-413.0, -178.7, 4	-413.0	-178.7	Consectetureius.	#35A48E
+-440.5, -190.1, 4	-440.5	-190.1	Consectetureius.	#35A48E
+-457.3, -258.9, 4	-457.3	-258.9	Consectetureius.	#35A48E
+-425.5, -195.6, 4	-425.5	-195.6	Consectetureius.	#35A48E
+-423.9, -187.3, 4	-423.9	-187.3	Consectetureius.	#35A48E
+-438.0, -178.8, 4	-438.0	-178.8	Consectetureius.	#35A48E
+-400.5, -267.6, 4	-400.5	-267.6	Consectetureius.	#35A48E
+-456.3, -204.5, 4	-456.3	-204.5	Consectetureius.	#35A48E
+-447.4, -309.0, 4	-447.4	-309.0	Consectetureius.	#35A48E
+-458.6, -213.3, 4	-458.6	-213.3	Consectetureius.	#35A48E
+-428.2, -197.9, 4	-428.2	-197.9	Consectetureius.	#35A48E
+-435.0, -245.8, 4	-435.0	-245.8	Consectetureius.	#35A48E
+-394.4, -193.2, 4	-394.4	-193.2	Consectetureius.	#35A48E
+-400.5, -206.1, 4	-400.5	-206.1	Consectetureius.	#35A48E
+-396.8, -186.6, 4	-396.8	-186.6	Consectetureius.	#35A48E
+-460.7, -212.5, 4	-460.7	-212.5	Consectetureius.	#35A48E
+-434.8, -190.0, 4	-434.8	-190.0	Consectetureius.	#35A48E
+-439.0, -256.9, 4	-439.0	-256.9	Consectetureius.	#35A48E
+-429.1, -246.9, 4	-429.1	-246.9	Consectetureius.	#35A48E
+-483.3, -169.6, 4	-483.3	-169.6	Consectetureius.	#35A48E
+-440.3, -220.8, 4	-440.3	-220.8	Consectetureius.	#35A48E
+-424.8, -258.2, 4	-424.8	-258.2	Consectetureius.	#35A48E
+-441.5, -208.8, 4	-441.5	-208.8	Consectetureius.	#35A48E
+-419.7, -193.7, 4	-419.7	-193.7	Consectetureius.	#35A48E
+-467.7, -186.1, 4	-467.7	-186.1	Consectetureius.	#35A48E
+-385.5, -223.1, 4	-385.5	-223.1	Consectetureius.	#35A48E
+-320.8, 158.9, 5	-320.8	158.9	Adipisciquisquam.	#DF87C2
+-353.8, 190.6, 5	-353.8	190.6	Adipisciquisquam.	#DF87C2
+-373.0, 239.4, 5	-373.0	239.4	Adipisciquisquam.	#DF87C2
+-293.6, 222.0, 5	-293.6	222.0	Adipisciquisquam.	#DF87C2
+-291.9, 218.4, 5	-291.9	218.4	Adipisciquisquam.	#DF87C2
+-349.8, 185.6, 5	-349.8	185.6	Adipisciquisquam.	#DF87C2
+-325.5, 197.5, 5	-325.5	197.5	Adipisciquisquam.	#DF87C2
+-333.4, 203.9, 5	-333.4	203.9	Adipisciquisquam.	#DF87C2
+-344.1, 173.9, 5	-344.1	173.9	Adipisciquisquam.	#DF87C2
+-330.4, 175.3, 5	-330.4	175.3	Adipisciquisquam.	#DF87C2
+-331.4, 202.8, 5	-331.4	202.8	Adipisciquisquam.	#DF87C2
+-307.6, 184.6, 5	-307.6	184.6	Adipisciquisquam.	#DF87C2
+-360.6, 181.9, 5	-360.6	181.9	Adipisciquisquam.	#DF87C2
+-382.9, 218.0, 5	-382.9	218.0	Adipisciquisquam.	#DF87C2
+-356.6, 167.9, 5	-356.6	167.9	Adipisciquisquam.	#DF87C2
+-338.7, 201.5, 5	-338.7	201.5	Adipisciquisquam.	#DF87C2
+-357.3, 171.3, 5	-357.3	171.3	Adipisciquisquam.	#DF87C2
+-368.0, 168.7, 5	-368.0	168.7	Adipisciquisquam.	#DF87C2
+-337.4, 218.4, 5	-337.4	218.4	Adipisciquisquam.	#DF87C2
+-365.5, 149.1, 5	-365.5	149.1	Adipisciquisquam.	#DF87C2
+-332.5, 201.1, 5	-332.5	201.1	Adipisciquisquam.	#DF87C2
+-349.5, 201.9, 5	-349.5	201.9	Adipisciquisquam.	#DF87C2
+-349.1, 196.1, 5	-349.1	196.1	Adipisciquisquam.	#DF87C2
+-358.4, 150.0, 5	-358.4	150.0	Adipisciquisquam.	#DF87C2
+-370.8, 141.5, 5	-370.8	141.5	Adipisciquisquam.	#DF87C2
+-315.5, 203.2, 5	-315.5	203.2	Adipisciquisquam.	#DF87C2
+-353.0, 198.6, 5	-353.0	198.6	Adipisciquisquam.	#DF87C2
+-351.9, 181.1, 5	-351.9	181.1	Adipisciquisquam.	#DF87C2
+-350.2, 174.0, 5	-350.2	174.0	Adipisciquisquam.	#DF87C2
+-329.3, 153.3, 5	-329.3	153.3	Adipisciquisquam.	#DF87C2
+-377.8, 225.5, 5	-377.8	225.5	Adipisciquisquam.	#DF87C2
+-356.3, 216.4, 5	-356.3	216.4	Adipisciquisquam.	#DF87C2
+-352.5, 167.8, 5	-352.5	167.8	Adipisciquisquam.	#DF87C2
+-352.9, 165.1, 5	-352.9	165.1	Adipisciquisquam.	#DF87C2
+-345.0, 212.3, 5	-345.0	212.3	Adipisciquisquam.	#DF87C2
+-367.9, 200.2, 5	-367.9	200.2	Adipisciquisquam.	#DF87C2
+-369.8, 185.0, 5	-369.8	185.0	Adipisciquisquam.	#DF87C2
+-381.0, 194.6, 5	-381.0	194.6	Adipisciquisquam.	#DF87C2
+-300.8, 171.3, 5	-300.8	171.3	Adipisciquisquam.	#DF87C2
+-355.6, 153.4, 5	-355.6	153.4	Adipisciquisquam.	#DF87C2
+-345.7, 154.5, 5	-345.7	154.5	Adipisciquisquam.	#DF87C2
+-364.4, 140.0, 5	-364.4	140.0	Adipisciquisquam.	#DF87C2
+-350.0, 222.7, 5	-350.0	222.7	Adipisciquisquam.	#DF87C2
+460.6, 137.4, 6	460.6	137.4	Aliquamaliquamtempora.	#FA8C78
+447.1, 165.4, 6	447.1	165.4	Aliquamaliquamtempora.	#FA8C78
+387.2, 81.0, 6	387.2	81.0	Aliquamaliquamtempora.	#FA8C78
+432.1, 117.3, 6	432.1	117.3	Aliquamaliquamtempora.	#FA8C78
+421.2, 115.1, 6	421.2	115.1	Aliquamaliquamtempora.	#FA8C78
+396.9, 72.3, 6	396.9	72.3	Aliquamaliquamtempora.	#FA8C78
+416.3, 150.8, 6	416.3	150.8	Aliquamaliquamtempora.	#FA8C78
+423.3, 129.3, 6	423.3	129.3	Aliquamaliquamtempora.	#FA8C78
+428.6, 82.6, 6	428.6	82.6	Aliquamaliquamtempora.	#FA8C78
+438.2, 118.9, 6	438.2	118.9	Aliquamaliquamtempora.	#FA8C78
+417.5, 161.4, 6	417.5	161.4	Aliquamaliquamtempora.	#FA8C78
+417.7, 149.2, 6	417.7	149.2	Aliquamaliquamtempora.	#FA8C78
+424.2, 126.7, 6	424.2	126.7	Aliquamaliquamtempora.	#FA8C78
+434.9, 126.6, 6	434.9	126.6	Aliquamaliquamtempora.	#FA8C78
+452.5, 80.5, 6	452.5	80.5	Aliquamaliquamtempora.	#FA8C78
+419.5, 146.1, 6	419.5	146.1	Aliquamaliquamtempora.	#FA8C78
+376.0, 152.8, 6	376.0	152.8	Aliquamaliquamtempora.	#FA8C78
+412.5, 135.0, 6	412.5	135.0	Aliquamaliquamtempora.	#FA8C78
+431.0, 116.1, 6	431.0	116.1	Aliquamaliquamtempora.	#FA8C78
+418.8, 203.6, 6	418.8	203.6	Aliquamaliquamtempora.	#FA8C78
+397.0, 104.6, 6	397.0	104.6	Aliquamaliquamtempora.	#FA8C78
+401.1, 150.5, 6	401.1	150.5	Aliquamaliquamtempora.	#FA8C78
+394.9, 172.8, 6	394.9	172.8	Aliquamaliquamtempora.	#FA8C78
+406.3, 115.9, 6	406.3	115.9	Aliquamaliquamtempora.	#FA8C78
+438.4, 80.3, 6	438.4	80.3	Aliquamaliquamtempora.	#FA8C78
+430.7, 105.0, 6	430.7	105.0	Aliquamaliquamtempora.	#FA8C78
+213.5, -149.1, 7	213.5	-149.1	Consecteturamet.	#2458CA
+177.7, -143.6, 7	177.7	-143.6	Consecteturamet.	#2458CA
+185.6, -124.5, 7	185.6	-124.5	Consecteturamet.	#2458CA
+196.2, -140.0, 7	196.2	-140.0	Consecteturamet.	#2458CA
+153.5, -142.7, 7	153.5	-142.7	Consecteturamet.	#2458CA
+163.6, -163.3, 7	163.6	-163.3	Consecteturamet.	#2458CA
+189.7, -148.4, 7	189.7	-148.4	Consecteturamet.	#2458CA
+213.7, -132.0, 7	213.7	-132.0	Consecteturamet.	#2458CA
+177.9, -130.6, 7	177.9	-130.6	Consecteturamet.	#2458CA
+209.3, -144.6, 7	209.3	-144.6	Consecteturamet.	#2458CA
+197.7, -155.5, 7	197.7	-155.5	Consecteturamet.	#2458CA
+201.2, -148.8, 7	201.2	-148.8	Consecteturamet.	#2458CA
+199.0, -120.8, 7	199.0	-120.8	Consecteturamet.	#2458CA
+223.6, -140.1, 7	223.6	-140.1	Consecteturamet.	#2458CA
+133.9, -142.7, 7	133.9	-142.7	Consecteturamet.	#2458CA
+210.5, -134.3, 7	210.5	-134.3	Consecteturamet.	#2458CA
+209.6, -163.4, 7	209.6	-163.4	Consecteturamet.	#2458CA
+183.7, -135.4, 7	183.7	-135.4	Consecteturamet.	#2458CA
+168.1, -154.7, 7	168.1	-154.7	Consecteturamet.	#2458CA
+144.1, -97.8, 7	144.1	-97.8	Consecteturamet.	#2458CA
+243.3, -150.7, 7	243.3	-150.7	Consecteturamet.	#2458CA
+157.8, -142.8, 7	157.8	-142.8	Consecteturamet.	#2458CA
+195.5, -156.6, 7	195.5	-156.6	Consecteturamet.	#2458CA
+197.9, -114.0, 7	197.9	-114.0	Consecteturamet.	#2458CA
+164.6, -144.9, 7	164.6	-144.9	Consecteturamet.	#2458CA
+214.2, -142.3, 7	214.2	-142.3	Consecteturamet.	#2458CA
+164.3, -127.5, 7	164.3	-127.5	Consecteturamet.	#2458CA
+201.6, -134.8, 7	201.6	-134.8	Consecteturamet.	#2458CA
+192.1, -117.7, 7	192.1	-117.7	Consecteturamet.	#2458CA
+200.6, -160.1, 7	200.6	-160.1	Consecteturamet.	#2458CA
+176.2, -145.8, 7	176.2	-145.8	Consecteturamet.	#2458CA
+218.6, -142.3, 7	218.6	-142.3	Consecteturamet.	#2458CA
+212.4, -99.4, 7	212.4	-99.4	Consecteturamet.	#2458CA
+160.7, -98.9, 7	160.7	-98.9	Consecteturamet.	#2458CA
+-324.9, 322.3, 8	-324.9	322.3	Sedut.	#5F1058
+-277.0, 341.0, 8	-277.0	341.0	Sedut.	#5F1058
+-301.1, 262.6, 8	-301.1	262.6	Sedut.	#5F1058
+-280.9, 325.7, 8	-280.9	325.7	Sedut.	#5F1058
+-331.0, 316.7, 8	-331.0	316.7	Sedut.	#5F1058
+-332.3, 387.1, 8	-332.3	387.1	Sedut.	#5F1058
+-296.8, 299.6, 8	-296.8	299.6	Sedut.	#5F1058
+-304.1, 308.8, 8	-304.1	308.8	Sedut.	#5F1058
+-287.2, 286.3, 8	-287.2	286.3	Sedut.	#5F1058
+-317.0, 291.3, 8	-317.0	291.3	Sedut.	#5F1058
+-251.4, 366.1, 8	-251.4	366.1	Sedut.	#5F1058
+-304.5, 292.9, 8	-304.5	292.9	Sedut.	#5F1058
+-273.1, 355.7, 8	-273.1	355.7	Sedut.	#5F1058
+-279.4, 311.4, 8	-279.4	311.4	Sedut.	#5F1058
+-283.1, 292.1, 8	-283.1	292.1	Sedut.	#5F1058
+-299.8, 252.8, 8	-299.8	252.8	Sedut.	#5F1058
+-316.4, 308.8, 8	-316.4	308.8	Sedut.	#5F1058
+-275.7, 297.0, 8	-275.7	297.0	Sedut.	#5F1058
+-300.4, 314.6, 8	-300.4	314.6	Sedut.	#5F1058
+-291.9, 299.0, 8	-291.9	299.0	Sedut.	#5F1058
+-256.1, 279.9, 8	-256.1	279.9	Sedut.	#5F1058
+40.4, 381.4, 9	40.4	381.4	Laborenumquamut.	#F6D8CA
+40.8, 330.8, 9	40.8	330.8	Laborenumquamut.	#F6D8CA
+-0.3, 379.6, 9	-0.3	379.6	Laborenumquamut.	#F6D8CA
+-14.2, 350.6, 9	-14.2	350.6	Laborenumquamut.	#F6D8CA
+-56.8, 368.8, 9	-56.8	368.8	Laborenumquamut.	#F6D8CA
+-43.3, 375.2, 9	-43.3	375.2	Laborenumquamut.	#F6D8CA
+-43.4, 363.2, 9	-43.4	363.2	Laborenumquamut.	#F6D8CA
+-48.3, 389.8, 9	-48.3	389.8	Laborenumquamut.	#F6D8CA
+-45.1, 396.5, 9	-45.1	396.5	Laborenumquamut.	#F6D8CA
+-3.2, 366.2, 9	-3.2	366.2	Laborenumquamut.	#F6D8CA
+-27.9, 409.6, 9	-27.9	409.6	Laborenumquamut.	#F6D8CA
+-3.0, 358.2, 9	-3.0	358.2	Laborenumquamut.	#F6D8CA
+-60.2, 386.8, 9	-60.2	386.8	Laborenumquamut.	#F6D8CA
+-4.8, 354.0, 9	-4.8	354.0	Laborenumquamut.	#F6D8CA
+-12.8, 387.5, 9	-12.8	387.5	Laborenumquamut.	#F6D8CA
+-78.0, 393.1, 9	-78.0	393.1	Laborenumquamut.	#F6D8CA
+-2.1, 410.2, 9	-2.1	410.2	Laborenumquamut.	#F6D8CA
+-35.8, 396.8, 9	-35.8	396.8	Laborenumquamut.	#F6D8CA
+-51.8, 385.0, 9	-51.8	385.0	Laborenumquamut.	#F6D8CA
+-8.6, 367.4, 9	-8.6	367.4	Laborenumquamut.	#F6D8CA
+-17.8, 383.3, 9	-17.8	383.3	Laborenumquamut.	#F6D8CA
+48.5, 365.6, 9	48.5	365.6	Laborenumquamut.	#F6D8CA
+-6.4, 392.2, 9	-6.4	392.2	Laborenumquamut.	#F6D8CA
+-37.2, 403.1, 9	-37.2	403.1	Laborenumquamut.	#F6D8CA
+-30.7, 410.9, 9	-30.7	410.9	Laborenumquamut.	#F6D8CA
+-34.1, 380.1, 9	-34.1	380.1	Laborenumquamut.	#F6D8CA
+4.6, 374.7, 9	4.6	374.7	Laborenumquamut.	#F6D8CA
+-16.0, 378.7, 9	-16.0	378.7	Laborenumquamut.	#F6D8CA
+-12.2, 372.0, 9	-12.2	372.0	Laborenumquamut.	#F6D8CA
+-28.2, 388.6, 9	-28.2	388.6	Laborenumquamut.	#F6D8CA
+-145.8, 370.4, 9	-145.8	370.4	Laborenumquamut.	#F6D8CA
+-38.4, 399.2, 9	-38.4	399.2	Laborenumquamut.	#F6D8CA
+37.8, 346.8, 9	37.8	346.8	Laborenumquamut.	#F6D8CA
+43.9, 368.3, 10	43.9	368.3	Laborenon.	#769CFD
+90.6, 393.8, 10	90.6	393.8	Laborenon.	#769CFD
+64.3, 360.0, 10	64.3	360.0	Laborenon.	#769CFD
+40.1, 324.3, 10	40.1	324.3	Laborenon.	#769CFD
+94.7, 374.1, 10	94.7	374.1	Laborenon.	#769CFD
+72.2, 377.7, 10	72.2	377.7	Laborenon.	#769CFD
+88.6, 416.8, 10	88.6	416.8	Laborenon.	#769CFD
+64.7, 332.6, 10	64.7	332.6	Laborenon.	#769CFD
+39.9, 303.1, 10	39.9	303.1	Laborenon.	#769CFD
+21.5, 327.5, 10	21.5	327.5	Laborenon.	#769CFD
+65.1, 303.9, 10	65.1	303.9	Laborenon.	#769CFD
+66.7, 345.2, 10	66.7	345.2	Laborenon.	#769CFD
+86.2, 354.0, 10	86.2	354.0	Laborenon.	#769CFD
+18.8, 263.0, 10	18.8	263.0	Laborenon.	#769CFD
+84.9, 339.1, 10	84.9	339.1	Laborenon.	#769CFD
+59.6, 394.1, 10	59.6	394.1	Laborenon.	#769CFD
+32.8, 381.9, 10	32.8	381.9	Laborenon.	#769CFD
+56.1, 391.7, 10	56.1	391.7	Laborenon.	#769CFD
+107.0, 396.0, 10	107.0	396.0	Laborenon.	#769CFD
+18.0, 347.1, 10	18.0	347.1	Laborenon.	#769CFD
+54.9, 333.6, 10	54.9	333.6	Laborenon.	#769CFD
+50.5, 347.5, 10	50.5	347.5	Laborenon.	#769CFD
+40.7, 405.8, 10	40.7	405.8	Laborenon.	#769CFD
+80.6, 401.4, 10	80.6	401.4	Laborenon.	#769CFD
+66.9, 369.7, 10	66.9	369.7	Laborenon.	#769CFD
+37.4, 289.3, 10	37.4	289.3	Laborenon.	#769CFD
+29.5, 302.2, 10	29.5	302.2	Laborenon.	#769CFD
+70.9, 309.9, 10	70.9	309.9	Laborenon.	#769CFD
+44.3, 326.8, 10	44.3	326.8	Laborenon.	#769CFD
+81.4, 416.3, 10	81.4	416.3	Laborenon.	#769CFD
+79.7, 371.2, 10	79.7	371.2	Laborenon.	#769CFD
+49.8, 362.6, 10	49.8	362.6	Laborenon.	#769CFD
+85.2, 377.8, 10	85.2	377.8	Laborenon.	#769CFD
+92.0, 356.4, 10	92.0	356.4	Laborenon.	#769CFD
+57.5, 358.2, 10	57.5	358.2	Laborenon.	#769CFD
+110.8, 349.9, 10	110.8	349.9	Laborenon.	#769CFD
+59.3, 396.4, 10	59.3	396.4	Laborenon.	#769CFD
+7.5, 211.9, 11	7.5	211.9	Quaeratipsumconsectetur.	#12816C
+-76.0, 225.6, 11	-76.0	225.6	Quaeratipsumconsectetur.	#12816C
+-50.3, 197.3, 11	-50.3	197.3	Quaeratipsumconsectetur.	#12816C
+-44.7, 253.2, 11	-44.7	253.2	Quaeratipsumconsectetur.	#12816C
+-46.5, 267.4, 11	-46.5	267.4	Quaeratipsumconsectetur.	#12816C
+-46.0, 183.5, 11	-46.0	183.5	Quaeratipsumconsectetur.	#12816C
+-38.2, 218.5, 11	-38.2	218.5	Quaeratipsumconsectetur.	#12816C
+-45.2, 230.1, 11	-45.2	230.1	Quaeratipsumconsectetur.	#12816C
+-47.3, 269.2, 11	-47.3	269.2	Quaeratipsumconsectetur.	#12816C
+-33.6, 223.6, 11	-33.6	223.6	Quaeratipsumconsectetur.	#12816C
+-21.5, 333.0, 11	-21.5	333.0	Quaeratipsumconsectetur.	#12816C
+-41.6, 271.1, 11	-41.6	271.1	Quaeratipsumconsectetur.	#12816C
+4.0, 241.5, 11	4.0	241.5	Quaeratipsumconsectetur.	#12816C
+-14.0, 284.3, 11	-14.0	284.3	Quaeratipsumconsectetur.	#12816C
+-44.2, 317.8, 11	-44.2	317.8	Quaeratipsumconsectetur.	#12816C
+-18.1, 290.8, 11	-18.1	290.8	Quaeratipsumconsectetur.	#12816C
+-41.7, 231.5, 11	-41.7	231.5	Quaeratipsumconsectetur.	#12816C
+-0.3, 323.0, 11	-0.3	323.0	Quaeratipsumconsectetur.	#12816C
+-21.8, 288.4, 11	-21.8	288.4	Quaeratipsumconsectetur.	#12816C
+-41.9, 260.9, 11	-41.9	260.9	Quaeratipsumconsectetur.	#12816C
+-46.0, 246.3, 11	-46.0	246.3	Quaeratipsumconsectetur.	#12816C
+-35.5, 271.3, 11	-35.5	271.3	Quaeratipsumconsectetur.	#12816C
+-22.0, 228.3, 11	-22.0	228.3	Quaeratipsumconsectetur.	#12816C
+-51.3, 319.8, 11	-51.3	319.8	Quaeratipsumconsectetur.	#12816C
+-61.8, 188.9, 11	-61.8	188.9	Quaeratipsumconsectetur.	#12816C
+-41.6, 298.3, 11	-41.6	298.3	Quaeratipsumconsectetur.	#12816C
+-25.5, 239.4, 11	-25.5	239.4	Quaeratipsumconsectetur.	#12816C
+-13.9, 260.4, 11	-13.9	260.4	Quaeratipsumconsectetur.	#12816C
+-32.2, 231.8, 11	-32.2	231.8	Quaeratipsumconsectetur.	#12816C
+-30.6, 260.8, 11	-30.6	260.8	Quaeratipsumconsectetur.	#12816C
+-81.5, 244.4, 11	-81.5	244.4	Quaeratipsumconsectetur.	#12816C
+-46.2, 264.6, 11	-46.2	264.6	Quaeratipsumconsectetur.	#12816C
+-28.6, 225.0, 11	-28.6	225.0	Quaeratipsumconsectetur.	#12816C
+87.3, -109.0, 12	87.3	-109.0	Etincidunteius.	#CD9176
+126.3, -99.8, 12	126.3	-99.8	Etincidunteius.	#CD9176
+124.3, -116.4, 12	124.3	-116.4	Etincidunteius.	#CD9176
+136.7, -116.7, 12	136.7	-116.7	Etincidunteius.	#CD9176
+144.0, -155.4, 12	144.0	-155.4	Etincidunteius.	#CD9176
+146.5, -147.9, 12	146.5	-147.9	Etincidunteius.	#CD9176
+102.6, -51.8, 12	102.6	-51.8	Etincidunteius.	#CD9176
+95.2, -137.3, 12	95.2	-137.3	Etincidunteius.	#CD9176
+113.5, -56.6, 12	113.5	-56.6	Etincidunteius.	#CD9176
+131.6, -147.5, 12	131.6	-147.5	Etincidunteius.	#CD9176
+65.9, -101.3, 12	65.9	-101.3	Etincidunteius.	#CD9176
+115.3, -29.1, 12	115.3	-29.1	Etincidunteius.	#CD9176
+168.9, -107.5, 12	168.9	-107.5	Etincidunteius.	#CD9176
+99.9, -69.4, 12	99.9	-69.4	Etincidunteius.	#CD9176
+78.2, -106.5, 12	78.2	-106.5	Etincidunteius.	#CD9176
+85.6, -54.2, 12	85.6	-54.2	Etincidunteius.	#CD9176
+75.9, -113.0, 12	75.9	-113.0	Etincidunteius.	#CD9176
+149.8, -135.7, 12	149.8	-135.7	Etincidunteius.	#CD9176
+81.5, -111.6, 12	81.5	-111.6	Etincidunteius.	#CD9176
+94.5, -72.0, 12	94.5	-72.0	Etincidunteius.	#CD9176
+144.8, -138.8, 12	144.8	-138.8	Etincidunteius.	#CD9176
+153.8, -138.3, 12	153.8	-138.3	Etincidunteius.	#CD9176
+115.9, -76.0, 12	115.9	-76.0	Etincidunteius.	#CD9176
+63.4, -62.4, 12	63.4	-62.4	Etincidunteius.	#CD9176
+94.7, -113.4, 12	94.7	-113.4	Etincidunteius.	#CD9176
+-30.2, -41.8, 13	-30.2	-41.8	Porrodolorlabore.	#E070A5
+-35.3, 19.3, 13	-35.3	19.3	Porrodolorlabore.	#E070A5
+14.0, -35.3, 13	14.0	-35.3	Porrodolorlabore.	#E070A5
+-2.8, -47.0, 13	-2.8	-47.0	Porrodolorlabore.	#E070A5
+4.9, -16.9, 13	4.9	-16.9	Porrodolorlabore.	#E070A5
+-25.8, -0.5, 13	-25.8	-0.5	Porrodolorlabore.	#E070A5
+-31.2, 29.5, 13	-31.2	29.5	Porrodolorlabore.	#E070A5
+-3.5, -24.0, 13	-3.5	-24.0	Porrodolorlabore.	#E070A5
+-4.4, -21.9, 13	-4.4	-21.9	Porrodolorlabore.	#E070A5
+-22.4, -18.9, 13	-22.4	-18.9	Porrodolorlabore.	#E070A5
+-5.1, -67.3, 13	-5.1	-67.3	Porrodolorlabore.	#E070A5
+1.2, -43.7, 13	1.2	-43.7	Porrodolorlabore.	#E070A5
+-35.9, -11.5, 13	-35.9	-11.5	Porrodolorlabore.	#E070A5
+-37.0, -10.9, 13	-37.0	-10.9	Porrodolorlabore.	#E070A5
+-4.0, -16.8, 13	-4.0	-16.8	Porrodolorlabore.	#E070A5
+-41.1, 8.1, 13	-41.1	8.1	Porrodolorlabore.	#E070A5
+17.1, -4.2, 13	17.1	-4.2	Porrodolorlabore.	#E070A5
+-9.6, -41.0, 13	-9.6	-41.0	Porrodolorlabore.	#E070A5
+1.7, 5.3, 13	1.7	5.3	Porrodolorlabore.	#E070A5
+8.0, -13.7, 13	8.0	-13.7	Porrodolorlabore.	#E070A5
+-29.6, -27.3, 13	-29.6	-27.3	Porrodolorlabore.	#E070A5
+1.1, 14.7, 13	1.1	14.7	Porrodolorlabore.	#E070A5
+-30.9, -29.6, 13	-30.9	-29.6	Porrodolorlabore.	#E070A5
+18.0, -17.8, 13	18.0	-17.8	Porrodolorlabore.	#E070A5
+-23.5, -33.0, 13	-23.5	-33.0	Porrodolorlabore.	#E070A5
+-27.2, -72.1, 13	-27.2	-72.1	Porrodolorlabore.	#E070A5
+-9.4, 43.9, 13	-9.4	43.9	Porrodolorlabore.	#E070A5
+0.5, -64.0, 13	0.5	-64.0	Porrodolorlabore.	#E070A5
+-45.6, 23.7, 13	-45.6	23.7	Porrodolorlabore.	#E070A5
+218.7, 60.4, 14	218.7	60.4	Numquamamet.	#5D15A7
+229.9, 13.1, 14	229.9	13.1	Numquamamet.	#5D15A7
+223.3, 59.0, 14	223.3	59.0	Numquamamet.	#5D15A7
+220.6, 30.1, 14	220.6	30.1	Numquamamet.	#5D15A7
+198.0, 39.3, 14	198.0	39.3	Numquamamet.	#5D15A7
+235.2, 64.5, 14	235.2	64.5	Numquamamet.	#5D15A7
+224.0, 91.2, 14	224.0	91.2	Numquamamet.	#5D15A7
+216.8, 86.1, 14	216.8	86.1	Numquamamet.	#5D15A7
+253.4, 35.7, 14	253.4	35.7	Numquamamet.	#5D15A7
+195.1, 68.7, 14	195.1	68.7	Numquamamet.	#5D15A7
+227.7, 76.1, 14	227.7	76.1	Numquamamet.	#5D15A7
+219.4, 67.9, 14	219.4	67.9	Numquamamet.	#5D15A7
+186.8, 18.4, 14	186.8	18.4	Numquamamet.	#5D15A7
+249.4, 57.4, 14	249.4	57.4	Numquamamet.	#5D15A7
+236.1, 97.3, 14	236.1	97.3	Numquamamet.	#5D15A7
+204.1, 77.8, 14	204.1	77.8	Numquamamet.	#5D15A7
+253.3, 64.8, 14	253.3	64.8	Numquamamet.	#5D15A7
+208.7, 72.2, 14	208.7	72.2	Numquamamet.	#5D15A7
+228.7, 80.8, 14	228.7	80.8	Numquamamet.	#5D15A7
+219.2, 94.4, 14	219.2	94.4	Numquamamet.	#5D15A7
+176.5, 61.8, 14	176.5	61.8	Numquamamet.	#5D15A7
+197.0, 48.3, 14	197.0	48.3	Numquamamet.	#5D15A7
+199.4, 76.4, 14	199.4	76.4	Numquamamet.	#5D15A7
+240.9, 2.1, 14	240.9	2.1	Numquamamet.	#5D15A7
+201.6, 65.0, 14	201.6	65.0	Numquamamet.	#5D15A7
+263.3, 73.2, 14	263.3	73.2	Numquamamet.	#5D15A7
+260.3, 14.7, 14	260.3	14.7	Numquamamet.	#5D15A7
+230.3, 44.7, 14	230.3	44.7	Numquamamet.	#5D15A7
+219.8, 56.8, 14	219.8	56.8	Numquamamet.	#5D15A7
+223.8, 68.9, 14	223.8	68.9	Numquamamet.	#5D15A7
+183.8, 91.7, 14	183.8	91.7	Numquamamet.	#5D15A7
+184.0, 77.2, 14	184.0	77.2	Numquamamet.	#5D15A7
+236.4, 14.1, 14	236.4	14.1	Numquamamet.	#5D15A7
+-295.7, 272.1, 15	-295.7	272.1	Porromagnamdolor.	#82FA21
+-279.2, 307.8, 15	-279.2	307.8	Porromagnamdolor.	#82FA21
+-277.1, 231.8, 15	-277.1	231.8	Porromagnamdolor.	#82FA21
+-350.0, 253.0, 15	-350.0	253.0	Porromagnamdolor.	#82FA21
+-285.1, 316.3, 15	-285.1	316.3	Porromagnamdolor.	#82FA21
+-312.9, 313.5, 15	-312.9	313.5	Porromagnamdolor.	#82FA21
+-300.6, 317.1, 15	-300.6	317.1	Porromagnamdolor.	#82FA21
+-310.5, 313.4, 15	-310.5	313.4	Porromagnamdolor.	#82FA21
+-309.8, 283.5, 15	-309.8	283.5	Porromagnamdolor.	#82FA21
+-326.8, 303.0, 15	-326.8	303.0	Porromagnamdolor.	#82FA21
+-341.2, 250.8, 15	-341.2	250.8	Porromagnamdolor.	#82FA21
+-301.9, 308.6, 15	-301.9	308.6	Porromagnamdolor.	#82FA21
+-352.6, 265.0, 15	-352.6	265.0	Porromagnamdolor.	#82FA21
+-307.7, 281.2, 15	-307.7	281.2	Porromagnamdolor.	#82FA21
+-310.8, 278.6, 15	-310.8	278.6	Porromagnamdolor.	#82FA21
+-341.8, 263.2, 15	-341.8	263.2	Porromagnamdolor.	#82FA21
+-322.3, 281.6, 15	-322.3	281.6	Porromagnamdolor.	#82FA21
+-338.7, 281.1, 15	-338.7	281.1	Porromagnamdolor.	#82FA21
+-320.8, 288.1, 15	-320.8	288.1	Porromagnamdolor.	#82FA21
+-279.9, 294.2, 15	-279.9	294.2	Porromagnamdolor.	#82FA21
+-285.4, 302.3, 15	-285.4	302.3	Porromagnamdolor.	#82FA21
+-289.3, 298.1, 15	-289.3	298.1	Porromagnamdolor.	#82FA21
+-247.2, 325.9, 15	-247.2	325.9	Porromagnamdolor.	#82FA21
+-311.2, 310.6, 15	-311.2	310.6	Porromagnamdolor.	#82FA21
+-297.9, 260.8, 15	-297.9	260.8	Porromagnamdolor.	#82FA21
+-283.7, 298.9, 15	-283.7	298.9	Porromagnamdolor.	#82FA21
+-314.9, 325.7, 15	-314.9	325.7	Porromagnamdolor.	#82FA21
+-350.1, 311.5, 15	-350.1	311.5	Porromagnamdolor.	#82FA21
+-321.8, 305.5, 15	-321.8	305.5	Porromagnamdolor.	#82FA21
+-283.3, 246.7, 15	-283.3	246.7	Porromagnamdolor.	#82FA21
+-291.4, 303.6, 15	-291.4	303.6	Porromagnamdolor.	#82FA21
+-365.2, 321.7, 15	-365.2	321.7	Porromagnamdolor.	#82FA21
+-269.1, 282.8, 15	-269.1	282.8	Porromagnamdolor.	#82FA21
+-304.8, 331.5, 15	-304.8	331.5	Porromagnamdolor.	#82FA21
+-335.4, 261.2, 15	-335.4	261.2	Porromagnamdolor.	#82FA21
+-284.6, 333.0, 15	-284.6	333.0	Porromagnamdolor.	#82FA21
+-299.0, 253.3, 15	-299.0	253.3	Porromagnamdolor.	#82FA21
+-278.3, 325.9, 15	-278.3	325.9	Porromagnamdolor.	#82FA21
+-241.2, 292.5, 15	-241.2	292.5	Porromagnamdolor.	#82FA21
+-330.8, 305.8, 15	-330.8	305.8	Porromagnamdolor.	#82FA21
+-294.0, 329.0, 15	-294.0	329.0	Porromagnamdolor.	#82FA21
+-294.5, 334.5, 15	-294.5	334.5	Porromagnamdolor.	#82FA21
+-351.7, 227.4, 15	-351.7	227.4	Porromagnamdolor.	#82FA21
+-309.9, 269.3, 15	-309.9	269.3	Porromagnamdolor.	#82FA21
+-365.6, 288.7, 15	-365.6	288.7	Porromagnamdolor.	#82FA21
+-322.7, 324.7, 15	-322.7	324.7	Porromagnamdolor.	#82FA21
+-325.6, 250.1, 15	-325.6	250.1	Porromagnamdolor.	#82FA21
+-293.6, 292.2, 15	-293.6	292.2	Porromagnamdolor.	#82FA21
+466.4, -368.6, 16	466.4	-368.6	Laboreporro.	#44FAC9
+358.2, -369.3, 16	358.2	-369.3	Laboreporro.	#44FAC9
+389.9, -366.7, 16	389.9	-366.7	Laboreporro.	#44FAC9
+400.6, -371.7, 16	400.6	-371.7	Laboreporro.	#44FAC9
+394.6, -382.3, 16	394.6	-382.3	Laboreporro.	#44FAC9
+437.1, -402.7, 16	437.1	-402.7	Laboreporro.	#44FAC9
+452.9, -366.2, 16	452.9	-366.2	Laboreporro.	#44FAC9
+445.7, -373.3, 16	445.7	-373.3	Laboreporro.	#44FAC9
+392.1, -385.4, 16	392.1	-385.4	Laboreporro.	#44FAC9
+449.1, -370.1, 16	449.1	-370.1	Laboreporro.	#44FAC9
+386.6, -365.5, 16	386.6	-365.5	Laboreporro.	#44FAC9
+456.4, -391.8, 16	456.4	-391.8	Laboreporro.	#44FAC9
+399.5, -371.4, 16	399.5	-371.4	Laboreporro.	#44FAC9
+417.3, -359.7, 16	417.3	-359.7	Laboreporro.	#44FAC9
+448.4, -368.3, 16	448.4	-368.3	Laboreporro.	#44FAC9
+375.5, -384.5, 16	375.5	-384.5	Laboreporro.	#44FAC9
+401.2, -378.5, 16	401.2	-378.5	Laboreporro.	#44FAC9
+415.0, -388.0, 16	415.0	-388.0	Laboreporro.	#44FAC9
+355.8, -370.7, 16	355.8	-370.7	Laboreporro.	#44FAC9
+394.9, -357.2, 16	394.9	-357.2	Laboreporro.	#44FAC9
+405.8, -395.3, 16	405.8	-395.3	Laboreporro.	#44FAC9
+385.1, -367.4, 16	385.1	-367.4	Laboreporro.	#44FAC9
+444.9, -364.0, 16	444.9	-364.0	Laboreporro.	#44FAC9
+392.0, -380.0, 16	392.0	-380.0	Laboreporro.	#44FAC9
+422.7, -365.3, 16	422.7	-365.3	Laboreporro.	#44FAC9
+384.2, -378.2, 16	384.2	-378.2	Laboreporro.	#44FAC9
+394.5, -389.7, 16	394.5	-389.7	Laboreporro.	#44FAC9
+405.1, -365.6, 16	405.1	-365.6	Laboreporro.	#44FAC9
+431.7, -378.5, 16	431.7	-378.5	Laboreporro.	#44FAC9
+421.5, -382.8, 16	421.5	-382.8	Laboreporro.	#44FAC9
+417.4, -372.3, 16	417.4	-372.3	Laboreporro.	#44FAC9
+412.6, -380.1, 16	412.6	-380.1	Laboreporro.	#44FAC9
+421.3, -382.7, 16	421.3	-382.7	Laboreporro.	#44FAC9
+410.2, -374.8, 16	410.2	-374.8	Laboreporro.	#44FAC9
+438.3, -375.3, 16	438.3	-375.3	Laboreporro.	#44FAC9
+411.9, -372.3, 16	411.9	-372.3	Laboreporro.	#44FAC9
+417.9, -383.7, 16	417.9	-383.7	Laboreporro.	#44FAC9
+425.8, -384.2, 16	425.8	-384.2	Laboreporro.	#44FAC9
+450.0, -369.2, 16	450.0	-369.2	Laboreporro.	#44FAC9
+414.7, -386.6, 16	414.7	-386.6	Laboreporro.	#44FAC9
+420.4, -380.1, 16	420.4	-380.1	Laboreporro.	#44FAC9
+391.3, -371.0, 16	391.3	-371.0	Laboreporro.	#44FAC9
+417.6, -374.0, 16	417.6	-374.0	Laboreporro.	#44FAC9
+416.4, -380.5, 16	416.4	-380.5	Laboreporro.	#44FAC9
+416.2, -382.9, 16	416.2	-382.9	Laboreporro.	#44FAC9
+-36.8, -295.6, 17	-36.8	-295.6	Aliquamadipiscietincidunt.	#96A056
+-54.3, -288.4, 17	-54.3	-288.4	Aliquamadipiscietincidunt.	#96A056
+5.2, -224.6, 17	5.2	-224.6	Aliquamadipiscietincidunt.	#96A056
+-51.0, -270.2, 17	-51.0	-270.2	Aliquamadipiscietincidunt.	#96A056
+2.8, -277.2, 17	2.8	-277.2	Aliquamadipiscietincidunt.	#96A056
+-7.9, -277.1, 17	-7.9	-277.1	Aliquamadipiscietincidunt.	#96A056
+-7.3, -256.4, 17	-7.3	-256.4	Aliquamadipiscietincidunt.	#96A056
+5.0, -241.5, 17	5.0	-241.5	Aliquamadipiscietincidunt.	#96A056
+-7.7, -273.5, 17	-7.7	-273.5	Aliquamadipiscietincidunt.	#96A056
+-42.2, -251.6, 17	-42.2	-251.6	Aliquamadipiscietincidunt.	#96A056
+-11.9, -247.3, 17	-11.9	-247.3	Aliquamadipiscietincidunt.	#96A056
+14.9, -293.0, 17	14.9	-293.0	Aliquamadipiscietincidunt.	#96A056
+-36.5, -262.6, 17	-36.5	-262.6	Aliquamadipiscietincidunt.	#96A056
+1.9, -281.2, 17	1.9	-281.2	Aliquamadipiscietincidunt.	#96A056
+10.5, -278.4, 17	10.5	-278.4	Aliquamadipiscietincidunt.	#96A056
+38.4, -252.1, 17	38.4	-252.1	Aliquamadipiscietincidunt.	#96A056
+-33.0, -256.6, 17	-33.0	-256.6	Aliquamadipiscietincidunt.	#96A056
+-42.3, -242.9, 17	-42.3	-242.9	Aliquamadipiscietincidunt.	#96A056
+-40.8, -265.7, 17	-40.8	-265.7	Aliquamadipiscietincidunt.	#96A056
+-11.1, -282.9, 17	-11.1	-282.9	Aliquamadipiscietincidunt.	#96A056
+2.6, -290.8, 17	2.6	-290.8	Aliquamadipiscietincidunt.	#96A056
+0.2, -251.1, 17	0.2	-251.1	Aliquamadipiscietincidunt.	#96A056
+-8.8, -238.0, 17	-8.8	-238.0	Aliquamadipiscietincidunt.	#96A056
+-19.3, -310.6, 17	-19.3	-310.6	Aliquamadipiscietincidunt.	#96A056
+-8.3, -268.4, 17	-8.3	-268.4	Aliquamadipiscietincidunt.	#96A056
+10.3, -282.8, 17	10.3	-282.8	Aliquamadipiscietincidunt.	#96A056
+-11.4, -240.7, 17	-11.4	-240.7	Aliquamadipiscietincidunt.	#96A056
+-21.2, -329.1, 17	-21.2	-329.1	Aliquamadipiscietincidunt.	#96A056
+490.1, 310.3, 18	490.1	310.3	Quaeratadipiscilabore.	#23061F
+461.1, 281.2, 18	461.1	281.2	Quaeratadipiscilabore.	#23061F
+464.1, 312.8, 18	464.1	312.8	Quaeratadipiscilabore.	#23061F
+423.3, 313.6, 18	423.3	313.6	Quaeratadipiscilabore.	#23061F
+429.3, 340.2, 18	429.3	340.2	Quaeratadipiscilabore.	#23061F
+453.2, 299.1, 18	453.2	299.1	Quaeratadipiscilabore.	#23061F
+476.1, 334.8, 18	476.1	334.8	Quaeratadipiscilabore.	#23061F
+464.2, 327.9, 18	464.2	327.9	Quaeratadipiscilabore.	#23061F
+418.8, 318.8, 18	418.8	318.8	Quaeratadipiscilabore.	#23061F
+472.2, 330.4, 18	472.2	330.4	Quaeratadipiscilabore.	#23061F
+471.5, 328.4, 18	471.5	328.4	Quaeratadipiscilabore.	#23061F
+425.0, 306.5, 18	425.0	306.5	Quaeratadipiscilabore.	#23061F
+439.6, 312.6, 18	439.6	312.6	Quaeratadipiscilabore.	#23061F
+463.7, 337.4, 18	463.7	337.4	Quaeratadipiscilabore.	#23061F
+438.7, 286.6, 18	438.7	286.6	Quaeratadipiscilabore.	#23061F
+421.9, 318.1, 18	421.9	318.1	Quaeratadipiscilabore.	#23061F
+435.2, 308.5, 18	435.2	308.5	Quaeratadipiscilabore.	#23061F
+482.5, 293.8, 18	482.5	293.8	Quaeratadipiscilabore.	#23061F
+443.7, 333.6, 18	443.7	333.6	Quaeratadipiscilabore.	#23061F
+462.4, 326.3, 18	462.4	326.3	Quaeratadipiscilabore.	#23061F
+457.9, 317.8, 18	457.9	317.8	Quaeratadipiscilabore.	#23061F
+428.4, 323.8, 18	428.4	323.8	Quaeratadipiscilabore.	#23061F
+-79.9, -445.0, 19	-79.9	-445.0	Temporamodi.	#1F495B
+-104.5, -445.5, 19	-104.5	-445.5	Temporamodi.	#1F495B
+-133.3, -465.7, 19	-133.3	-465.7	Temporamodi.	#1F495B
+-106.2, -432.5, 19	-106.2	-432.5	Temporamodi.	#1F495B
+-106.9, -454.8, 19	-106.9	-454.8	Temporamodi.	#1F495B
+-50.9, -447.5, 19	-50.9	-447.5	Temporamodi.	#1F495B
+-74.4, -459.6, 19	-74.4	-459.6	Temporamodi.	#1F495B
+-115.5, -449.6, 19	-115.5	-449.6	Temporamodi.	#1F495B
+-125.4, -422.0, 19	-125.4	-422.0	Temporamodi.	#1F495B
+-94.8, -449.2, 19	-94.8	-449.2	Temporamodi.	#1F495B
+-91.9, -424.5, 19	-91.9	-424.5	Temporamodi.	#1F495B
+-86.9, -460.2, 19	-86.9	-460.2	Temporamodi.	#1F495B
+-75.0, -452.3, 19	-75.0	-452.3	Temporamodi.	#1F495B
+-61.0, -448.9, 19	-61.0	-448.9	Temporamodi.	#1F495B
+-81.9, -442.6, 19	-81.9	-442.6	Temporamodi.	#1F495B
+-103.9, -470.3, 19	-103.9	-470.3	Temporamodi.	#1F495B
+-76.1, -451.1, 19	-76.1	-451.1	Temporamodi.	#1F495B
+-111.1, -444.4, 19	-111.1	-444.4	Temporamodi.	#1F495B
+-68.6, -438.5, 19	-68.6	-438.5	Temporamodi.	#1F495B
+-97.7, -445.6, 19	-97.7	-445.6	Temporamodi.	#1F495B
+-84.0, -445.8, 19	-84.0	-445.8	Temporamodi.	#1F495B
+-64.0, -421.1, 19	-64.0	-421.1	Temporamodi.	#1F495B
+-110.0, -452.6, 19	-110.0	-452.6	Temporamodi.	#1F495B
+-96.1, -456.0, 19	-96.1	-456.0	Temporamodi.	#1F495B
+-52.3, -456.7, 19	-52.3	-456.7	Temporamodi.	#1F495B
+-86.6, -464.9, 19	-86.6	-464.9	Temporamodi.	#1F495B
+-94.0, -442.3, 19	-94.0	-442.3	Temporamodi.	#1F495B

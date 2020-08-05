@@ -101,11 +101,9 @@ h1,p {
 }
 
 /* jqueryUI for dialogs */
-.no-close .ui-dialog-titlebar-close {
-  display: none;
-}
-.ui-dialog-titlebar {
-  background: red;
+.custom-red {
+  background: #fc3503;
+  color: white;
 }
 /* end jqueryUI for dialogs */
 
