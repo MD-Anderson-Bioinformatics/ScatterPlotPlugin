@@ -35,6 +35,18 @@ export var VAN = new Vanodi({
 					{ label: 'Blue', value: 'blue'}
 				], 
 				helpText: 'Color used to highlight selected points'
+			},
+			{ label: 'Draw Order', type: 'dropdown', choices: [
+					{ label: 'Random (same seed)', value: 'randomSameSeed' },
+					{ label: 'Random (different seed)', value: 'randomDifferentSeed' },
+					{ label: 'Original', value: 'original' },
+					{ label: 'By Group', value: 'batches' }
+				],
+				helpText: 'Order to draw points.<br><br>' +
+							'<u>Random (same seed)</u>: random order, with same seed each time<br><br>' +
+							'<u>Random (different seed)</u>: random order, with different seed each time<br><br>' +
+							'<u>Original</u>: same order as in NGCHM<br><br>' +
+							'<u>By Group</u>: draw group with largest number of points first, then group with second largest, etc.'
 			}
 		]
 }); /* end function registerPlugin */
@@ -109,15 +121,15 @@ VAN.addMessageListener ('plot', function plotMessageHandler (vanodi) {
 		xLabel: vanodi.config.axes[0].coordinates[0].label,
 		yLabel: vanodi.config.axes[0].coordinates[1].label,
 		plotTitle: vanodi.config.plotTitle,
-		legendTitle: vanodi.config.axes[0].covariates[0].label
+		legendTitle: vanodi.config.axes[0].covariates[0].label,
+		drawOrder: vanodi.config.options['Draw Order']
 	}
 	$(document).ready(function() {
 		var slider = document.getElementById('point-size-slider')
 		ScatterPlot.plotOptions.pointSize = slider.value
 		canvasPlot.batchIds = canvasPlot.getBatchIds(ScatterPlot.plotData)
 		canvasPlot.axis = vanodi.config.axes[0].axisName
-		var chance1 = new Chance(124);
-		canvasPlot.data = chance1.shuffle(ScatterPlot.plotData)
+		canvasPlot.data = ScatterPlot.plotData
 		canvasPlot.drawPlot(canvasPlot.data, ScatterPlot.plotGeometry, ScatterPlot.plotOptions, ScatterPlot.colorMap);
 		slider.oninput = function() {
 			canvasPlot.plotOptions.pointSize = this.value;
