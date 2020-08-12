@@ -39,14 +39,14 @@ export var VAN = new Vanodi({
 			{ label: 'Draw Order', type: 'dropdown', choices: [
 					{ label: 'Random (same seed)', value: 'randomSameSeed' },
 					{ label: 'Random (different seed)', value: 'randomDifferentSeed' },
-					{ label: 'Original', value: 'original' },
-					{ label: 'By Group', value: 'batches' }
+					{ label: 'NG-CHM Order', value: 'original' },
+					{ label: 'Group Size', value: 'batches' }
 				],
 				helpText: 'Order to draw points.<br><br>' +
 							'<u>Random (same seed)</u>: random order, with same seed each time<br><br>' +
 							'<u>Random (different seed)</u>: random order, with different seed each time<br><br>' +
-							'<u>Original</u>: same order as in NGCHM<br><br>' +
-							'<u>By Group</u>: draw group with largest number of points first, then group with second largest, etc.'
+							'<u>NGCHM Order</u>: same order as in NGCHM<br><br>' +
+							'<u>Group Size</u>: draw group with largest number of points first, then group with second largest, etc.'
 			}
 		]
 }); /* end function registerPlugin */
