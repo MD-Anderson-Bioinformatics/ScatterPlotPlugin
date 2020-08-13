@@ -838,6 +838,7 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 	}, false)
 	// hide tooltips when mouse moves off canvas:
 	document.getElementById('catch-zoom').addEventListener('mouseout', function() { 
+		highlightCtx.clearRect(0, 0, highlightCanvas.width, highlightCanvas.height); // clear highlight canvas
 		tipCanvas.style.left = "-900px"; // move tooltip off view 
 		tipCanvas.style.top = "100px";
 	}, false)
