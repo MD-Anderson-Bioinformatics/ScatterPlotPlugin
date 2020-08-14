@@ -10,6 +10,18 @@ export var VAN = new Vanodi({
 				  { name: 'Color By', baseid: 'covariate', min: 1, max: 1, helpText: 'Covariate used to color points in the Scatter Plot' }] }
 		],
 		options: [
+			{ label: 'Render Order', type: 'dropdown', choices: [
+					{ label: 'Random (same seed)', value: 'randomSameSeed' },
+					{ label: 'Random (different seed)', value: 'randomDifferentSeed' },
+					{ label: 'NG-CHM Order', value: 'original' },
+					{ label: 'Group Size', value: 'batches' }
+				],
+				helpText: 'Order to render points.<br><br>' +
+							'<u>Random (same seed)</u>: random order, with same seed each time<br><br>' +
+							'<u>Random (different seed)</u>: random order, with different seed each time<br><br>' +
+							'<u>NGCHM Order</u>: same order as in NGCHM<br><br>' +
+							'<u>Group Size</u>: draw group with largest number of points first, then group with second largest, etc., so the smallest group is on top.'
+			},
 			{ label: 'Background Color', type: 'dropdown', choices: [
 				{ label: 'White', value: "white" },
 				{ label: 'Ivory', value: "ivory" },
@@ -35,18 +47,6 @@ export var VAN = new Vanodi({
 					{ label: 'Blue', value: 'blue'}
 				], 
 				helpText: 'Color used to highlight selected points'
-			},
-			{ label: 'Draw Order', type: 'dropdown', choices: [
-					{ label: 'Random (same seed)', value: 'randomSameSeed' },
-					{ label: 'Random (different seed)', value: 'randomDifferentSeed' },
-					{ label: 'NG-CHM Order', value: 'original' },
-					{ label: 'Group Size', value: 'batches' }
-				],
-				helpText: 'Order to draw points.<br><br>' +
-							'<u>Random (same seed)</u>: random order, with same seed each time<br><br>' +
-							'<u>Random (different seed)</u>: random order, with different seed each time<br><br>' +
-							'<u>NGCHM Order</u>: same order as in NGCHM<br><br>' +
-							'<u>Group Size</u>: draw group with largest number of points first, then group with second largest, etc.'
 			}
 		]
 }); /* end function registerPlugin */
@@ -122,7 +122,7 @@ VAN.addMessageListener ('plot', function plotMessageHandler (vanodi) {
 		yLabel: vanodi.config.axes[0].coordinates[1].label,
 		plotTitle: vanodi.config.plotTitle,
 		legendTitle: vanodi.config.axes[0].covariates[0].label,
-		drawOrder: vanodi.config.options['Draw Order']
+		drawOrder: vanodi.config.options['Render Order']
 	}
 	$(document).ready(function() {
 		var slider = document.getElementById('point-size-slider')
