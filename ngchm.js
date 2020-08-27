@@ -19,8 +19,8 @@ export var VAN = new Vanodi({
 				helpText: 'Order to render points.<br><br>' +
 							'<u>Random (same seed)</u>: random order, with same seed each time<br><br>' +
 							'<u>Random (different seed)</u>: random order, with different seed each time<br><br>' +
-							'<u>NGCHM Order</u>: same order as in NGCHM<br><br>' +
-							'<u>Group Size</u>: draw group with largest number of points first, then group with second largest, etc., so the smallest group is on top.'
+							'<u>NGCHM Order</u>: same order as columns/rows of the NGCHM<br><br>' +
+							'<u>Group Size</u>: group with largest number of points on bottom, group with smallest number of points on top.'
 			},
 			{ label: 'Background Color', type: 'dropdown', choices: [
 				{ label: 'White', value: "white" },
