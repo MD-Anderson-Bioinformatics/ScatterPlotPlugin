@@ -370,6 +370,11 @@ function initializeOptions(plotOptions) {
 	op.yLabel = plotOptions.hasOwnProperty('yLabel') ? plotOptions.yLabel : 'y data';
 	op.plotTitle = plotOptions.hasOwnProperty('plotTitle') ? plotOptions.plotTitle : 'Plot Title';
 	op.legendTitle = plotOptions.hasOwnProperty('legendTitle') ? plotOptions.legendTitle : 'Legend Title';
+	op.drawOrder = plotOptions.hasOwnProperty('drawOrder') ? plotOptions.drawOrder : 'original';
+	if (!['original','randomSameSeed','randomDifferentSeed','batches'].includes(op.drawOrder)) {
+		console.warn("Invalid draw order for points. Setting to 'original'")
+		op.drawOrder = 'original';
+	}
 	return op
 }
 
@@ -521,6 +526,40 @@ function findDuplicates(array) {
 	return array.filter(a => a in objTmp ? true : (objTmp[a] = true) && false, objTmp)
 }
 
+/* Function to set the order of points for drawing 
+ *
+ * Parameters:
+ *     data: array of objects, each representing one data point, and of the form:
+ *           { batch: <batch>, color: <hex color>, id: <point id>, text: <label for point>,
+ *             x: <x-coordinate>, y: <y-coordinate>}
+ *     drawOrder: string, specifies order for drawing points. Choices:
+ *                randomSameSeed: shuffle input data to draw points randomly, but with same seed each time
+ *                randomDifferentSeed: shuffle input data to draw points randomly, but with different seed each time
+ *                batches: sort data according to batches, with the largest batch first
+ *                <anything else>: draw points in order they were given
+*/
+function setDataOrder(data,drawOrder) {
+	if (drawOrder == 'randomSameSeed') { // return random order w/ same seed each time
+		var chance1 = new Chance(124);
+		return chance1.shuffle(data);
+	} else if (drawOrder == 'randomDifferentSeed') { // return random order w/ different seed each time
+		var randInt = Math.floor(Math.random()*10);
+		var chance1 = new Chance(randInt);
+		return chance1.shuffle(data);
+	} else if (drawOrder == 'batches') { // return ordered by batches, largest to smallest
+		var sortedData = []
+		canvasPlot.batchIds.reverse().forEach( batchId => { 
+			var thesePoints = data.filter( d => d.batch == batchId )
+			thesePoints.forEach( p => {
+				sortedData.push(p)
+			})
+		})
+		return sortedData;
+	} else { // return original data
+		return data;
+	}
+}
+
 /*
  * Main function for making plot. Exported
  *
@@ -575,6 +614,7 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 	document.getElementById('plot-info-div').style.display = 'block';
 	document.getElementById('canvas-plot-wrapper').style.display = 'block';
 	createAxes(canvasPlot.data, canvasPlot.xScale, canvasPlot.yScale);
+	canvasPlot.data = setDataOrder(canvasPlot.data, canvasPlot.plotOptions.drawOrder);
 	drawActualPoints(canvasPlot.data, canvasPlot.xScale, canvasPlot.yScale);
 	selectedPoints = updateSelectedPointColors(canvasPlot.data, selectedPoints);
 	selectedPoints.forEach(function(dot) {
@@ -798,6 +838,7 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 	}, false)
 	// hide tooltips when mouse moves off canvas:
 	document.getElementById('catch-zoom').addEventListener('mouseout', function() { 
+		highlightCtx.clearRect(0, 0, highlightCanvas.width, highlightCanvas.height); // clear highlight canvas
 		tipCanvas.style.left = "-900px"; // move tooltip off view 
 		tipCanvas.style.top = "100px";
 	}, false)

@@ -10,6 +10,18 @@ export var VAN = new Vanodi({
 				  { name: 'Color By', baseid: 'covariate', min: 1, max: 1, helpText: 'Covariate used to color points in the Scatter Plot' }] }
 		],
 		options: [
+			{ label: 'Render Order', type: 'dropdown', choices: [
+					{ label: 'Random (same seed)', value: 'randomSameSeed' },
+					{ label: 'Random (different seed)', value: 'randomDifferentSeed' },
+					{ label: 'NG-CHM Order', value: 'original' },
+					{ label: 'Group Size', value: 'batches' }
+				],
+				helpText: 'Order to render points.<br><br>' +
+							'<u>Random (same seed)</u>: random order, with same seed each time<br><br>' +
+							'<u>Random (different seed)</u>: random order, with different seed each time<br><br>' +
+							'<u>NGCHM Order</u>: same order as columns/rows of the NGCHM<br><br>' +
+							'<u>Group Size</u>: group with largest number of points on bottom, group with smallest number of points on top.'
+			},
 			{ label: 'Background Color', type: 'dropdown', choices: [
 				{ label: 'White', value: "white" },
 				{ label: 'Ivory', value: "ivory" },
@@ -109,15 +121,15 @@ VAN.addMessageListener ('plot', function plotMessageHandler (vanodi) {
 		xLabel: vanodi.config.axes[0].coordinates[0].label,
 		yLabel: vanodi.config.axes[0].coordinates[1].label,
 		plotTitle: vanodi.config.plotTitle,
-		legendTitle: vanodi.config.axes[0].covariates[0].label
+		legendTitle: vanodi.config.axes[0].covariates[0].label,
+		drawOrder: vanodi.config.options['Render Order']
 	}
 	$(document).ready(function() {
 		var slider = document.getElementById('point-size-slider')
 		ScatterPlot.plotOptions.pointSize = slider.value
 		canvasPlot.batchIds = canvasPlot.getBatchIds(ScatterPlot.plotData)
 		canvasPlot.axis = vanodi.config.axes[0].axisName
-		var chance1 = new Chance(124);
-		canvasPlot.data = chance1.shuffle(ScatterPlot.plotData)
+		canvasPlot.data = ScatterPlot.plotData
 		canvasPlot.drawPlot(canvasPlot.data, ScatterPlot.plotGeometry, ScatterPlot.plotOptions, ScatterPlot.colorMap);
 		slider.oninput = function() {
 			canvasPlot.plotOptions.pointSize = this.value;
