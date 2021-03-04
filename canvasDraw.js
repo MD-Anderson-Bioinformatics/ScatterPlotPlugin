@@ -581,11 +581,13 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 		highlightPoint(dot, selectCtx, canvasPlot.xScale, canvasPlot.yScale);
 	})
 	// highlight initially selected points
-	canvasPlot.selectedPointIds.forEach(pid => {
-		let selectedPt = canvasPlot.data.filter(dp => {return dp.text == pid})[0]
-		highlightPoint(selectedPt, selectCtx, canvasPlot.xScale, canvasPlot.yScale)
-		selectedPoints.push(selectedPt)
-	})
+	if (canvasPlot.hasOwnProperty(selectedPointIds)) {
+		canvasPlot.selectedPointIds.forEach(pid => {
+			let selectedPt = canvasPlot.data.filter(dp => {return dp.text == pid})[0]
+			highlightPoint(selectedPt, selectCtx, canvasPlot.xScale, canvasPlot.yScale)
+			selectedPoints.push(selectedPt)
+		})
+	}
 	clearLegend()
 	if (colorMap) {
 		createLegend(colorMap);
