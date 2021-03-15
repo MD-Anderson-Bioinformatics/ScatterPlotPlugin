@@ -401,7 +401,10 @@ function drawActualPoints(data, xScale, yScale) {
 	var drawCanvas = document.getElementById('plot-points')
 	var drawCtx = drawCanvas.getContext('2d')
 	data.forEach(function(point) {
-		drawPoint(point,drawCtx, xScale, yScale);
+		if (point.x > xScale.domain()[0] && point.x < xScale.domain()[1] 
+		   && point.y > yScale.domain()[0] && point.y < yScale.domain()[1]) {
+			drawPoint(point,drawCtx, xScale, yScale);
+		}
 	})
 }
 
@@ -730,9 +733,7 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 		canvasPlot.g_transform = transform; // cache the transform
 	}
 	function zoomend() {
-		canvasPlot.data.forEach(function(point) {
-			drawPoint(point, batchCtx, canvasPlot.xScale, canvasPlot.yScale);
-		})
+		drawActualPoints(canvasPlot.data, canvasPlot.xScale, canvasPlot.yScale)
 		selectedPoints.forEach(function(dot) {
 			highlightPoint(dot, selectCtx, canvasPlot.xScale, canvasPlot.yScale);
 		})
