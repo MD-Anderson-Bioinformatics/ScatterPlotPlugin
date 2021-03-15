@@ -170,15 +170,12 @@ function createAxes(data, xScale, yScale) {
 		.style('font-size',canvasPlot.plotGeometry.axisLabelFont+'px')
 		.text(canvasPlot.plotOptions.xLabel)
 	// y-axis label
-	lX = canvasPlot.plotGeometry.height/2 + canvasPlot.plotGeometry.marginBottom;
-	let dx = '-' + canvasPlot.plotGeometry.marginBottom + 'px' // offset so y-label is vertically centered
-	lY = 0;
+	lX = canvasPlot.plotGeometry.height/2
+	lY = -5;
 	svg.append('text') 
 		.attr('transform', 'rotate(90)')
 		.attr('y',lY)
 		.attr('x',lX)
-		.attr('dy','-5px')
-		.attr('dx',dx)
 		.style('text-anchor','middle')
 		.style('font-family','Arial')
 		.style('fill',canvasPlot.plotOptions.textColor)
