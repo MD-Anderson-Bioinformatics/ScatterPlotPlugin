@@ -377,7 +377,8 @@ function initializeGeometry(plotGeometry) {
 	var geo = {}
 	geo.width = plotGeometry.hasOwnProperty('width') ? plotGeometry.width : window.innerWidth * .7;
 	geo.height = plotGeometry.hasOwnProperty('height') ? plotGeometry.height : window.innerHeight * .5;
-	geo.marginTop = plotGeometry.hasOwnProperty('marginTop') ? plotGeometry.marginTop : 0;
+	// TODO: fix bug: marginTop does not work properly, so setting explicitly to 0 for now 
+	geo.marginTop = 0;
 	geo.marginRight = plotGeometry.hasOwnProperty('marginRight') ? plotGeometry.marginRight : 0;
 	geo.marginBottom = plotGeometry.hasOwnProperty('marginBottom') ? plotGeometry.marginBottom : 40;
 	geo.marginLeft = plotGeometry.hasOwnProperty('marginLeft') ? plotGeometry.marginLeft : 40;
