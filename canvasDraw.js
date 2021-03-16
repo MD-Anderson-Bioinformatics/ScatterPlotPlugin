@@ -400,9 +400,13 @@ String.prototype.visualLength = function() {
 function drawActualPoints(data, xScale, yScale) {
 	var drawCanvas = document.getElementById('plot-points')
 	var drawCtx = drawCanvas.getContext('2d')
+	let xScaleMin = xScale.domain()[0]
+	let xScaleMax = xScale.domain()[1]
+	let yScaleMin = yScale.domain()[0]
+	let yScaleMax = yScale.domain()[1]
 	data.forEach(function(point) {
-		if (point.x > xScale.domain()[0] && point.x < xScale.domain()[1] 
-		   && point.y > yScale.domain()[0] && point.y < yScale.domain()[1]) {
+		if (point.x > xScaleMin && point.x < xScaleMax
+		   && point.y > yScaleMin && point.y < yScaleMax) {
 			drawPoint(point,drawCtx, xScale, yScale);
 		}
 	})
