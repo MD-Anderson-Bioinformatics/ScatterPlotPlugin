@@ -89,7 +89,7 @@
 			canvasPlot.drawPlot(canvasPlot.data,plotGeometry,plotOptions,false)
 			document.getElementById('npoints').innerHTML = 'Number of points: '+data.length.toString().replace(/\B(?=(\d{3})+(?!\d))/g,",")
 			let slider = document.getElementById('point-size-slider')
-			slider.oninput = $.debounce(1000, function() {
+			slider.oninput = $.debounce((data.length>100000) ? 1000 : 1, function() {
 				plotOptions['pointSize'] = this.value * 0.5
 				canvasPlot.drawPlot(canvasPlot.data, plotGeometry, plotOptions)
 			})

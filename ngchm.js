@@ -120,7 +120,7 @@ VAN.addMessageListener ('plot', function plotMessageHandler (vanodi) {
 		canvasPlot.data = chance1.shuffle(ScatterPlot.plotData)
 		canvasPlot.selectedPointIds = vanodi.data.axes[0].selectedLabels ? vanodi.data.axes[0].selectedLabels : []
 		canvasPlot.drawPlot(canvasPlot.data, ScatterPlot.plotGeometry, ScatterPlot.plotOptions, ScatterPlot.colorMap);
-		slider.oninput = $.debounce(1000, function() {
+		slider.oninput = $.debounce((canvasPlot.data.length>100000) ? 1000 : 1, function() {
 			canvasPlot.plotOptions.pointSize = this.value * 0.5;
 			canvasPlot.drawPlot(canvasPlot.data, canvasPlot.plotGeometry, canvasPlot.plotOptions, ScatterPlot.colorMap)
 		})
