@@ -16,7 +16,7 @@
 	<div id="main">
 		<div id='plot-info-div'>
 			<h1 id='canvas-plot-titledd'>This page is for demonstration only</h1>
-			<p>New cursors</p>
+			<p id='npoints'></p>
 			<p>
 				<img src='img/zoom-pan.png' class='icon mode-button' title='Zoom/Pan. Zoom with mouse whele.' id='zoom-button'>
 				<img src='img/lasso.png' class='icon mode-button' title='Lasso. Drag a shape to lasso points and/or select individual points by clicking' id='lasso-button'>
@@ -86,13 +86,14 @@
 			canvasPlot.batchIds = canvasPlot.getBatchIds(globalData)
 			canvasPlot.data = data
 			canvasPlot.drawPlot(canvasPlot.data,plotGeometry,plotOptions,false)
+			document.getElementById('npoints').innerHTML = 'Number of points: '+data.length.toString().replace(/\B(?=(\d{3})+(?!\d))/g,",")
 			let slider = document.getElementById('point-size-slider')
 			slider.oninput = function() {
 				plotOptions['pointSize'] = this.value
 				canvasPlot.drawPlot(canvasPlot.data, plotGeometry, plotOptions)
 			}
 		})
-	})
+	}) // end then for loading data file
 		$('.mode-button').tooltip({
 			classes: {'ui-tooltip':'mytooltips'}
 		})
