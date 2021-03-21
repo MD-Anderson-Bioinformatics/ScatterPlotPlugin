@@ -7,6 +7,7 @@
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="resources/jQueryThrottle.js"></script>
 <script type="module" src="ngchm.js"></script>
 <script type="text/javascript" src="resources/chance.js"></script>
 <script type="module" src="canvasDraw.js"></script>
@@ -88,10 +89,10 @@
 			canvasPlot.drawPlot(canvasPlot.data,plotGeometry,plotOptions,false)
 			document.getElementById('npoints').innerHTML = 'Number of points: '+data.length.toString().replace(/\B(?=(\d{3})+(?!\d))/g,",")
 			let slider = document.getElementById('point-size-slider')
-			slider.oninput = function() {
+			slider.oninput = $.debounce(1000, function() {
 				plotOptions['pointSize'] = this.value
 				canvasPlot.drawPlot(canvasPlot.data, plotGeometry, plotOptions)
-			}
+			})
 		})
 	}) // end then for loading data file
 		$('.mode-button').tooltip({
