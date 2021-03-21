@@ -400,8 +400,15 @@ String.prototype.visualLength = function() {
 function drawActualPoints(data, xScale, yScale) {
 	var drawCanvas = document.getElementById('plot-points')
 	var drawCtx = drawCanvas.getContext('2d')
+	let xScaleMin = xScale.domain()[0]
+	let xScaleMax = xScale.domain()[1]
+	let yScaleMin = yScale.domain()[0]
+	let yScaleMax = yScale.domain()[1]
 	data.forEach(function(point) {
-		drawPoint(point,drawCtx, xScale, yScale);
+		if (point.x > xScaleMin && point.x < xScaleMax
+		   && point.y > yScaleMin && point.y < yScaleMax) {
+			drawPoint(point,drawCtx, xScale, yScale);
+		}
 	})
 }
 
@@ -730,9 +737,7 @@ function drawPlot (data,plotGeometry,plotOptions,colorMap) {
 		canvasPlot.g_transform = transform; // cache the transform
 	}
 	function zoomend() {
-		canvasPlot.data.forEach(function(point) {
-			drawPoint(point, batchCtx, canvasPlot.xScale, canvasPlot.yScale);
-		})
+		drawActualPoints(canvasPlot.data, canvasPlot.xScale, canvasPlot.yScale)
 		selectedPoints.forEach(function(dot) {
 			highlightPoint(dot, selectCtx, canvasPlot.xScale, canvasPlot.yScale);
 		})
