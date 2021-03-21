@@ -21,7 +21,7 @@
 			<p>
 				<img src='img/zoom-pan.png' class='icon mode-button' title='Zoom/Pan. Zoom with mouse whele.' id='zoom-button'>
 				<img src='img/lasso.png' class='icon mode-button' title='Lasso. Drag a shape to lasso points and/or select individual points by clicking' id='lasso-button'>
-				<input id='point-size-slider' type='range' min='1' max='10' value='5' class='slider mode-button' title='slider'>
+				<input id='point-size-slider' type='range' min='1' max='20' value='5' class='slider mode-button' title='slider'>
 				<img src='img/reset.png' class='icon mode-button' title='reset' id='reset-button'>
 				<br>
 			</p>
@@ -90,7 +90,7 @@
 			document.getElementById('npoints').innerHTML = 'Number of points: '+data.length.toString().replace(/\B(?=(\d{3})+(?!\d))/g,",")
 			let slider = document.getElementById('point-size-slider')
 			slider.oninput = $.debounce(1000, function() {
-				plotOptions['pointSize'] = this.value
+				plotOptions['pointSize'] = this.value * 0.5
 				canvasPlot.drawPlot(canvasPlot.data, plotGeometry, plotOptions)
 			})
 		})
